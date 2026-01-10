@@ -1,0 +1,20 @@
+Final Summary (Tasks 1–3)
+========================
+
+Task 1: Convergence on Impact vs Implementability
+- Across 19 statements with multiple placements, impact scores are more dispersed than implementability (higher mean/median SDy vs SDx).
+- The positive SDy–SDx gap and significant paired test (p≈0.011) point to weaker convergence on impact than implementability.
+- Interpretation: participants are more aligned on “how doable” a practice is than on “how much it matters.”
+
+Task 2: Consensus Zones on the Grid
+- Placements are not evenly spread: only 39/49 cells are used, and the top 5 cells capture ~33% of all seed placements.
+- Two standout hotspots are (4,7) and (6,2), each with 23 placements. These represent shared perceptions at the high-impact and low-to-mid implementability ends of the grid.
+- Interpretation: a small number of grid regions function as common landing zones, signaling clear consensus pockets rather than uniform distribution.
+
+Task 3: Highest Agreement Statements
+- Exact agreement is modest overall (mean ~31%), but several statements exceed 40–53% exact agreement, showing strong clustering.
+- Agreement rises meaningfully when allowing a 1-cell radius (mean ~44%), with top statements reaching 80–86%.
+- Interpretation: while perfect consensus is rare, many statements concentrate within a tight neighborhood, indicating practical alignment even when not identical cell choices.
+
+Overall Insight
+- The analysis suggests stronger consensus on implementability than on impact (Task 1), a few dominant consensus zones (Task 2), and several statements with high local agreement (Task 3). Together, these results indicate shared structural views of the landscape with more debate on perceived impact than feasibility.
