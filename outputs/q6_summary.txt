@@ -1,0 +1,16 @@
+Q6 High-Impact / Hard-to-Implement Summary
+=========================================
+Rule: mean_x <= 3.00 and mean_y >= 5.00
+Statements in quadrant: 1
+
+Top statements in the quadrant
+------------------------------
+69593ddde0762f0fda4a8b45: Set an escalation SLA for unresolved blockers | mean_x=2.43, mean_y=6.50, sd_x=0.65, sd_y=1.09, n=14
+
+Sanity checks
+-------------
+Rows in input: 351
+Rows after dedup: 349
+Rows after seed filter: 278
+Rows after cleaning x/y: 278
+Statements with >= 2 participants: 1
