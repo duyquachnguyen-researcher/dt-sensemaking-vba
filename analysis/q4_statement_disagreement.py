@@ -192,10 +192,35 @@ def summarize(stats: list[dict[str, Any]], top_n: int, statement_texts: dict[str
     distance_vals = [row["mean_distance"] for row in stats]
     sd_x_vals = [row["sd_x"] for row in stats]
     sd_y_vals = [row["sd_y"] for row in stats]
+    mean_distance = mean(distance_vals) if distance_vals else float("nan")
+    median_distance = median(distance_vals) if distance_vals else float("nan")
+    if distance_vals:
+        if mean_distance >= 1.5:
+            interpretation = (
+                "Overall disagreement is high: participants are, on average, more than ~1.5 grid units "
+                "from the statement centroid."
+            )
+        elif mean_distance >= 1.0:
+            interpretation = (
+                "Overall disagreement is moderate: placements tend to be about one grid unit away from the "
+                "statement centroid."
+            )
+        else:
+            interpretation = (
+                "Overall disagreement is low: most placements cluster within about one grid unit of the "
+                "statement centroid."
+            )
+    else:
+        interpretation = "No statements met the minimum participant threshold, so disagreement could not be assessed."
     lines = [
         "Q4 Statement Disagreement Summary",
         "==================================",
         f"Statements included: {len(stats)}",
+        f"Mean controversy score: {mean_distance:.3f}" if distance_vals else "Mean controversy score: n/a",
+        f"Median controversy score: {median_distance:.3f}" if distance_vals else "Median controversy score: n/a",
+        f"Mean SDx: {mean(sd_x_vals):.3f}" if sd_x_vals else "Mean SDx: n/a",
+        f"Mean SDy: {mean(sd_y_vals):.3f}" if sd_y_vals else "Mean SDy: n/a",
+        f"Interpretation: {interpretation}",
         f"Mean controversy score: {mean(distance_vals):.3f}" if distance_vals else "Mean controversy score: n/a",
         f"Median controversy score: {median(distance_vals):.3f}" if distance_vals else "Median controversy score: n/a",
         f"Mean SDx: {mean(sd_x_vals):.3f}" if sd_x_vals else "Mean SDx: n/a",

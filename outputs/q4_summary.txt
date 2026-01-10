@@ -1,0 +1,29 @@
+Q4 Statement Disagreement Summary
+==================================
+Statements included: 19
+Mean controversy score: 1.547
+Median controversy score: 1.628
+Mean SDx: 1.080
+Mean SDy: 1.434
+Interpretation: Overall disagreement is high: participants are, on average, more than ~1.5 grid units from the statement centroid.
+
+Top statements by controversy score
+-----------------------------------
+69593ddcadb5f834c1df5aac: Protect 2 hours/week for learning tied to the goal | 2.29 mean dist (sdx=1.75, sdy=1.95, n=14)
+69079125de5cf20cb23dbb42: Celebrate a tiny win every Friday | 2.20 mean dist (sdx=0.82, sdy=2.33, n=15)
+69593dddef4549e17f3ee3a2: Visualize dependencies on other teams in one chart | 2.17 mean dist (sdx=1.44, sdy=2.24, n=14)
+69593db9785c2ed83c8cbea7: Pin the latest goal post at the top | 1.99 mean dist (sdx=1.05, sdy=2.03, n=15)
+69593dddb7e03945a9abeb07: Invite skeptics to a structured Q&A | 1.84 mean dist (sdx=1.45, sdy=1.73, n=14)
+69593ddbdf5f0ff1ac2e78f2: Share three user stories that embody the goal | 1.78 mean dist (sdx=1.87, sdy=1.09, n=14)
+69079124900fedf3fc27cf51: Provide role-based “what changes for me” cards | 1.76 mean dist (sdx=1.34, sdy=1.60, n=14)
+69593dc0eac6a120dc6e88a1: Use a single channel for official goal updates | 1.70 mean dist (sdx=0.77, sdy=1.83, n=15)
+69079122e0cd0242cebd60cf: Keep a living FAQ of recurring goal questions | 1.65 mean dist (sdx=1.26, sdy=1.54, n=16)
+690791237f24aa1ecd5429a9: Publish a simple roadmap (≤5 milestones) | 1.63 mean dist (sdx=0.70, sdy=1.77, n=15)
+
+Sanity checks
+-------------
+Rows in input: 351
+Rows after dedup: 349
+Rows after seed filter: 278
+Rows after cleaning x/y: 278
+Statements with >= 2 participants: 19
