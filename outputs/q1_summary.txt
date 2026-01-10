@@ -1,0 +1,19 @@
+Q1 Convergence Summary
+========================
+Statements included: 19
+Mean SDx (Implementability): 1.080
+Mean SDy (Impact): 1.434
+Median SDx (Implementability): 1.047
+Median SDy (Impact): 1.544
+Mean(SDy - SDx): 0.354
+Paired t-test p-value (SDy vs SDx): 0.01062
+P-value method: two-tailed normal approximation
+
+Sanity checks
+-------------
+Rows in input: 351
+Rows after dedup: 349
+Rows after cleaning x/y: 349
+Participants (unique tokens): 16
+Statements with any data: 90
+Statements with >=2 participants: 19
