@@ -1,0 +1,47 @@
+Input schematic (conceptual relationships)
+=========================================
+
+Files
+-----
+- Participant.csv
+  - Key fields: token (participant id)
+
+- StatementRaw.csv
+  - Key fields: canonical_id (statement id), raw text
+
+- StatementPub.csv
+  - Key fields: canonical_id (statement id), publication metadata
+
+- Placement.csv
+  - Key fields: token (participant id), canonical_id (statement id)
+  - Measures: x (implementability 1–7), y (impact 1–7)
+  - Notes: multiple rows per (token, canonical_id) due to moves; keep latest by ts
+
+Relationships
+-------------
+Participant.csv (token)
+    │
+    │ 1 participant makes many placements
+    ▼
+Placement.csv (token, canonical_id, x, y, ts)
+    ▲
+    │ many placements reference one statement
+    │
+StatementRaw.csv (canonical_id)  ──┐
+    │                              │
+    │ provides raw statement text  │
+    ▼                              │
+StatementPub.csv (canonical_id) ──┘
+    provides published/cleaned statement metadata
+
+Join keys
+---------
+- Placement.token -> Participant.token
+- Placement.canonical_id -> StatementRaw.canonical_id
+- Placement.canonical_id -> StatementPub.canonical_id
+
+Usage in Q1
+-----------
+- Q1 uses Placement.csv only for x/y placements.
+- Participant/Statement files provide metadata for reporting or filtering,
+  but are not required to compute convergence statistics.
