@@ -1,0 +1,41 @@
+Q3 Statement Agreement Summary
+===============================
+Statements included: 19
+Mean exact agreement: 0.313
+Median exact agreement: 0.286
+Mean 1-cell radius agreement: 0.442
+Median 1-cell radius agreement: 0.467
+
+Top statements by exact agreement
+---------------------------------
+69593daf0a570c24336526d8: 53.33% exact (n=15) top cell (4,7)
+69593ddde0762f0fda4a8b45: 50.00% exact (n=14) top cell (2,7)
+69593ddcadb5f834c1df5aac: 42.86% exact (n=14) top cell (2,2)
+69593ddc5731441183ecdee5: 42.86% exact (n=14) top cell (2,3)
+69079125de5cf20cb23dbb42: 40.00% exact (n=15) top cell (6,2)
+690791231130232c6f24a8b1: 33.33% exact (n=15) top cell (5,5)
+69593db9785c2ed83c8cbea7: 33.33% exact (n=15) top cell (6,2)
+690791237f24aa1ecd5429a9: 33.33% exact (n=15) top cell (6,3)
+69079122e0cd0242cebd60cf: 31.25% exact (n=16) top cell (6,2)
+69593dddb7e03945a9abeb07: 28.57% exact (n=14) top cell (5,2)
+
+Top statements by 1-cell radius agreement
+-----------------------------------------
+69593ddde0762f0fda4a8b45: 85.71% within 1 cell (n=14)
+690791231130232c6f24a8b1: 80.00% within 1 cell (n=15)
+69593daf0a570c24336526d8: 80.00% within 1 cell (n=15)
+69593ddac1fb00b7ab7169e6: 78.57% within 1 cell (n=14)
+6907912510acab4c189c26cd: 73.33% within 1 cell (n=15)
+69593ddc97c883f04d4a839d: 64.29% within 1 cell (n=14)
+69593ddc5731441183ecdee5: 57.14% within 1 cell (n=14)
+69079123065e0438f4af92d0: 56.25% within 1 cell (n=16)
+69593dc0eac6a120dc6e88a1: 46.67% within 1 cell (n=15)
+690791237f24aa1ecd5429a9: 46.67% within 1 cell (n=15)
+
+Sanity checks
+-------------
+Rows in input: 351
+Rows after dedup: 349
+Rows after seed filter: 278
+Rows after cleaning x/y: 278
+Statements with >= 2 participants: 19
