@@ -1,0 +1,37 @@
+Q5 Axis Disagreement Summary
+============================
+Statements included: 19
+Mean SDx: 1.080
+Mean SDy: 1.434
+Median SDx: 1.047
+Median SDy: 1.544
+Dominant implementability statements: 3
+Dominant impact statements: 8
+Balanced statements: 8
+
+Top implementability-driven disagreement
+----------------------------------------
+69593ddbdf5f0ff1ac2e78f2: Share three user stories that embody the goal | SDx 1.87 vs SDy 1.09 (n=14)
+69593db392815610917874fb: Map goals to owners (who does what by when) | SDx 1.49 vs SDy 0.92 (n=15)
+69079123065e0438f4af92d0: Specify what data will prove the goal is met | SDx 1.15 vs SDy 0.72 (n=16)
+
+Top impact-driven disagreement
+-------------------------------
+69079125de5cf20cb23dbb42: Celebrate a tiny win every Friday | SDy 2.33 vs SDx 0.82 (n=15)
+690791237f24aa1ecd5429a9: Publish a simple roadmap (≤5 milestones) | SDy 1.77 vs SDx 0.70 (n=15)
+69593dc0eac6a120dc6e88a1: Use a single channel for official goal updates | SDy 1.83 vs SDx 0.77 (n=15)
+69593ddc5731441183ecdee5: Demo working software instead of slides | SDy 1.83 vs SDx 0.83 (n=14)
+69593db9785c2ed83c8cbea7: Pin the latest goal post at the top | SDy 2.03 vs SDx 1.05 (n=15)
+69593dddef4549e17f3ee3a2: Visualize dependencies on other teams in one chart | SDy 2.24 vs SDx 1.44 (n=14)
+69593ddde0762f0fda4a8b45: Set an escalation SLA for unresolved blockers | SDy 1.09 vs SDx 0.65 (n=14)
+69593daf0a570c24336526d8: Translate DT goals into 2–3 team KPIs | SDy 0.83 vs SDx 0.52 (n=15)
+
+Sanity checks
+-------------
+Rows in input: 351
+Rows after dedup: 349
+Rows after seed filter: 278
+Rows after cleaning x/y: 278
+Statements with >= 2 participants: 19
+Ratio threshold: 1.25
+Diff threshold: 0.25
