@@ -1,0 +1,21 @@
+Q2 Consensus Zones Summary
+===========================
+Seed placements analyzed: 278
+Participants represented: 16
+Non-empty cells: 39 of 49
+Top 5 cells share: 92 placements (33.09%)
+
+Top cells by placement count
+-----------------------------
+Cell (4,7) [ID 28]: 23 placements (8.27%), 14 participants (87.50%)
+Cell (6,2) [ID 37]: 23 placements (8.27%), 10 participants (62.50%)
+Cell (5,5) [ID 33]: 16 placements (5.76%), 12 participants (75.00%)
+Cell (5,2) [ID 30]: 16 placements (5.76%), 8 participants (50.00%)
+Cell (6,3) [ID 38]: 14 placements (5.04%), 10 participants (62.50%)
+
+Sanity checks
+-------------
+Rows in input: 351
+Rows after dedup: 349
+Rows after seed filter: 278
+Rows after cleaning x/y: 278
