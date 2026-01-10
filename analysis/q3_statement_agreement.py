@@ -120,14 +120,16 @@ def deduplicate_latest(rows: Iterable[dict[str, str]]) -> list[dict[str, str]]:
     return [item[1] for item in latest.values()]
 
 
-def load_seed_ids(path: Path) -> set[str]:
+def load_seed_statement_texts(path: Path) -> dict[str, str]:
     rows = read_rows(path)
-    seed_ids: set[str] = set()
+    seed_texts: dict[str, str] = {}
     for row in rows:
         statement_id = (row.get("id") or "").strip()
-        if statement_id:
-            seed_ids.add(statement_id)
-    return seed_ids
+        if not statement_id:
+            continue
+        text = (row.get("text_final") or row.get("subtitle") or "").strip()
+        seed_texts[statement_id] = text
+    return seed_texts
 
 
 def cleaned_rows(rows: Iterable[dict[str, str]], seed_ids: set[str]) -> list[dict[str, Any]]:
@@ -207,7 +209,7 @@ def agreement_stats(
     return results
 
 
-def summarize(stats: list[dict[str, Any]], top_n: int) -> str:
+def summarize(stats: list[dict[str, Any]], top_n: int, statement_texts: dict[str, str]) -> str:
     exact_vals = [row["exact_agreement"] for row in stats]
     radius_vals = [row["radius_agreement"] for row in stats]
     lines = [
@@ -225,9 +227,11 @@ def summarize(stats: list[dict[str, Any]], top_n: int) -> str:
 
     sorted_exact = sorted(stats, key=lambda row: (row["exact_agreement"], row["n_participants"]), reverse=True)
     for row in sorted_exact[: max(top_n, 0)]:
+        statement_text = statement_texts.get(row["statement_id"], "Statement text unavailable")
         lines.append(
-            "{statement_id}: {exact:.2%} exact (n={n}) top cell ({x},{y})".format(
+            "{statement_id}: {text} | {exact:.2%} exact (n={n}) top cell ({x},{y})".format(
                 statement_id=row["statement_id"],
+                text=statement_text,
                 exact=row["exact_agreement"],
                 n=row["n_participants"],
                 x=row["top_cell_x"],
@@ -248,9 +252,11 @@ def summarize(stats: list[dict[str, Any]], top_n: int) -> str:
         reverse=True,
     )
     for row in sorted_radius[: max(top_n, 0)]:
+        statement_text = statement_texts.get(row["statement_id"], "Statement text unavailable")
         lines.append(
-            "{statement_id}: {radius:.2%} within 1 cell (n={n})".format(
+            "{statement_id}: {text} | {radius:.2%} within 1 cell (n={n})".format(
                 statement_id=row["statement_id"],
+                text=statement_text,
                 radius=row["radius_agreement"],
                 n=row["n_participants"],
             )
@@ -288,7 +294,8 @@ def main() -> None:
     deduped = deduplicate_latest(rows)
     dedup_rows = len(deduped)
 
-    seed_ids = load_seed_ids(args.statements)
+    seed_texts = load_seed_statement_texts(args.statements)
+    seed_ids = set(seed_texts)
     seed_rows = [row for row in deduped if (row.get("canonical_id") or "").strip() in seed_ids]
 
     cleaned = cleaned_rows(deduped, seed_ids)
@@ -296,7 +303,7 @@ def main() -> None:
 
     write_csv(args.output_csv, stats)
 
-    summary_text = summarize(stats, args.top_n)
+    summary_text = summarize(stats, args.top_n, seed_texts)
     sanity_lines = [
         "",
         "Sanity checks",
