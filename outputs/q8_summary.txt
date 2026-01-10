@@ -1,0 +1,27 @@
+Q8 Theme Mapping Summary
+========================
+Themes included: 4
+
+Theme centroids
+--------------
+Coordinate across teams and unblock: mean_x=3.18, mean_y=6.04, sd_x=1.33, sd_y=1.79, placements=28, statements=2
+Make the goal concrete: mean_x=4.97, mean_y=4.80, sd_x=1.25, sd_y=2.02, placements=107, statements=7
+Show how work will change: mean_x=3.82, mean_y=4.24, sd_x=1.52, sd_y=1.83, placements=84, statements=6
+Handle emotions and risk: mean_x=4.92, mean_y=4.20, sd_x=1.34, sd_y=1.76, placements=59, statements=4
+
+Top centroid contrasts
+-----------------------
+Handle emotions and risk vs Coordinate across teams and unblock: 2.52
+Make the goal concrete vs Coordinate across teams and unblock: 2.18
+Coordinate across teams and unblock vs Show how work will change: 1.91
+Make the goal concrete vs Show how work will change: 1.28
+Handle emotions and risk vs Show how work will change: 1.09
+
+Sanity checks
+-------------
+Rows in input: 351
+Rows after dedup: 349
+Rows after theme filter: 278
+Participants (unique tokens): 16
+Statements with theme data: 19
+Statements missing theme labels: 0
