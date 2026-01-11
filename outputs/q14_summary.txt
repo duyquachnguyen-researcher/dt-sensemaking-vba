@@ -1,0 +1,23 @@
+Q14 Country Differences Summary
+================================
+Statements included: 19
+
+Top country-separated statements
+---------------------------------
+69593dddef4549e17f3ee3a2: max_gap=7.21, delta_x=4.00, delta_y=6.00
+69593ddcadb5f834c1df5aac: max_gap=6.25, delta_x=4.00, delta_y=4.80
+69593dddb7e03945a9abeb07: max_gap=5.83, delta_x=3.20, delta_y=5.00
+69593ddc5731441183ecdee5: max_gap=5.39, delta_x=2.00, delta_y=5.00
+69079125de5cf20cb23dbb42: max_gap=5.23, delta_x=1.50, delta_y=5.20
+69079122e0cd0242cebd60cf: max_gap=5.00, delta_x=4.00, delta_y=3.00
+69593db9785c2ed83c8cbea7: max_gap=5.00, delta_x=3.00, delta_y=4.80
+690791237f24aa1ecd5429a9: max_gap=4.56, delta_x=2.00, delta_y=4.40
+69593dc0eac6a120dc6e88a1: max_gap=4.53, delta_x=2.00, delta_y=4.50
+69593ddde0762f0fda4a8b45: max_gap=4.12, delta_x=1.00, delta_y=4.00
+
+Sanity checks
+-------------
+Rows in input: 351
+Rows after dedup: 349
+Rows after group filter: 349
+Statements with >=2 countries: 19
