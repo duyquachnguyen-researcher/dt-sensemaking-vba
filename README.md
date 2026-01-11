@@ -40,7 +40,7 @@ Clustering seem not to be good because there are only 2 clusters --> Lets exclud
 Because excluded q11, excluded q12 also
 
 ### 13) Do placements differ by function (e.g., Marketing vs Product)?
-**Method:** For each seed statement, compute group centroids (x̄,ȳ) by function. Rank statements by between-group distance; test differences (Mann–Whitney / Kruskal–Wallis) where feasible.
+**Method:** For each seed statement, compute group centroids (x̄,ȳ) by function using the function of the participants in participant.csv. Rank statements by between-group distance; test differences (Mann–Whitney / Kruskal–Wallis) where feasible.
 
 ### 14) Do placements differ by country/region?
 **Method:** Same as Q13 but group by country. Rank statements by between-group distance and summarize whether differences are mainly X or Y.
