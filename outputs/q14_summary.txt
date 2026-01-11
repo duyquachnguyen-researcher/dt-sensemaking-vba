@@ -1,0 +1,23 @@
+Q14 Country Differences Summary
+==============================
+Countries included: 5
+Participants included: 16
+Placements included: 278
+
+Overall tests across participant countries
+------------------------------------------
+Kruskal-Wallis p-value (X): 0.0053
+Kruskal-Wallis p-value (Y): 0.0038
+
+Top country pairs by centroid distance
+--------------------------------------
+- France vs Singapore: distance 2.38 (Δx 1.68, Δy -1.68)
+- Thailand vs Vietnam: distance 2.27 (Δx 1.60, Δy 1.61)
+- France vs India: distance 2.15 (Δx 1.84, Δy -1.11)
+- India vs Thailand: distance 2.05 (Δx -1.84, Δy -0.89)
+- France vs Thailand: distance 2.00 (Δx 0.00, Δy -2.00)
+- Singapore vs Thailand: distance 1.71 (Δx -1.68, Δy -0.32)
+- France vs Vietnam: distance 1.64 (Δx 1.60, Δy -0.39)
+- Singapore vs Vietnam: distance 1.30 (Δx -0.09, Δy 1.30)
+- India vs Vietnam: distance 0.76 (Δx -0.24, Δy 0.72)
+- India vs Singapore: distance 0.60 (Δx -0.16, Δy -0.58)
