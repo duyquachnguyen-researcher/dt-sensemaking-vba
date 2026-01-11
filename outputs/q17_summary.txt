@@ -1,0 +1,39 @@
+Q17 Hybrid% vs Placement Patterns Summary
+========================================
+Participants included: 16
+Average hybrid%: 21.56
+Median hybrid%: 0.00
+Average placements per participant: 21.81
+
+Average participant tendencies
+-------------------------------
+Mean implementability (x): 4.68
+Mean impact (y): 4.89
+Average extremity rate: 32.35%
+
+Hybrid% correlations (Pearson r)
+--------------------------------
+Hybrid% vs mean implementability (x): r = -0.52, p = 0.037
+Hybrid% vs mean impact (y): r = 0.60, p = 0.013
+Hybrid% vs extremity rate: r = 0.43, p = 0.098
+P-values use a Fisher z approximation (two-tailed).
+
+Statement sensitivity (hybrid% vs placements)
+---------------------------------------------
+Top statements where hybrid% aligns with implementability (x):
+- Share three user stories that embody the goal (n=14, r = -0.97, p = 0.000)
+- Protect 2 hours/week for learning tied to the goal (n=14, r = 0.93, p = 0.000)
+- Invite skeptics to a structured Q&A (n=14, r = -0.81, p = 0.000)
+- Provide role-based “what changes for me” cards (n=14, r = -0.75, p = 0.001)
+- Use a single channel for official goal updates (n=15, r = 0.62, p = 0.012)
+
+Top statements where hybrid% aligns with impact (y):
+- Pin the latest goal post at the top (n=15, r = 0.92, p = 0.000)
+- Protect 2 hours/week for learning tied to the goal (n=14, r = 0.88, p = 0.000)
+- Keep a living FAQ of recurring goal questions (n=16, r = 0.85, p = 0.000)
+- Celebrate a tiny win every Friday (n=15, r = 0.84, p = 0.000)
+- Provide role-based “what changes for me” cards (n=14, r = -0.84, p = 0.000)
+
+Interpretation
+--------------
+Positive r indicates higher hybrid% aligns with higher values; negative r indicates the opposite.
