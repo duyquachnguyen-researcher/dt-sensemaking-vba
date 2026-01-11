@@ -1,20 +1,101 @@
-Final Summary (Tasks 1–3)
-========================
+Final Summary (Tasks 1–20)
+==========================
 
 Task 1: Convergence on Impact vs Implementability
-- Across 19 statements with multiple placements, impact scores are more dispersed than implementability (higher mean/median SDy vs SDx).
-- The positive SDy–SDx gap and significant paired test (p≈0.011) point to weaker convergence on impact than implementability.
-- Interpretation: participants are more aligned on “how doable” a practice is than on “how much it matters.”
+- Impact scores are more dispersed than implementability (higher mean/median SDy vs SDx), with a significant paired difference (p≈0.011).
+- Interpretation: participants agree more on feasibility than on impact magnitude.
 
 Task 2: Consensus Zones on the Grid
-- Placements are not evenly spread: only 39/49 cells are used, and the top 5 cells capture ~33% of all seed placements.
-- Two standout hotspots are (4,7) and (6,2), each with 23 placements. These represent shared perceptions at the high-impact and low-to-mid implementability ends of the grid.
-- Interpretation: a small number of grid regions function as common landing zones, signaling clear consensus pockets rather than uniform distribution.
+- Placements cluster into a few hotspots: 39/49 cells used, with the top 5 cells holding ~33% of placements.
+- Two dominant zones are (4,7) and (6,2), each with 23 placements.
+- Interpretation: a small number of grid regions act as consensus anchors rather than a uniform spread.
 
 Task 3: Highest Agreement Statements
-- Exact agreement is modest overall (mean ~31%), but several statements exceed 40–53% exact agreement, showing strong clustering.
-- Agreement rises meaningfully when allowing a 1-cell radius (mean ~44%), with top statements reaching 80–86%.
-- Interpretation: while perfect consensus is rare, many statements concentrate within a tight neighborhood, indicating practical alignment even when not identical cell choices.
+- Exact agreement is modest (mean ~31%), but several statements exceed 40–53% exact agreement.
+- Allowing a 1-cell radius lifts agreement substantially (mean ~44%, top statements ~80–86%).
+- Interpretation: perfect consensus is rare, but practical alignment is common within a tight neighborhood.
+
+Task 4: Most Controversial Statements
+- Average controversy score is high (~1.55 grid units from centroid), indicating broad dispersion.
+- The highest-controversy items include "Protect 2 hours/week for learning" and "Celebrate a tiny win every Friday."
+- Interpretation: disagreement concentrates on a subset of statements rather than being evenly distributed.
+
+Task 5: Axis-Specific Disagreement
+- 3 statements are implementability-driven, 8 are impact-driven, and 8 are balanced.
+- Impact-driven disagreement is more common, highlighting where impact perceptions diverge most.
+- Interpretation: impact judgments drive more variability than implementability on many statements.
+
+Task 6: High-Impact / Hard-to-Implement
+- Only one statement falls into this quadrant: "Set an escalation SLA for unresolved blockers" (mean_x=2.43, mean_y=6.50).
+- Interpretation: very few ideas are seen as both highly impactful and hard to implement.
+
+Task 7: Easy-to-Implement / Low-Impact
+- No statements meet the easy/low-impact criteria.
+- Interpretation: even the easiest actions are still perceived to carry meaningful impact.
+
+Task 8: Theme Mapping (Seed Statements)
+- Four themes emerge; "Coordinate across teams and unblock" sits highest on impact with lower implementability.
+- "Make the goal concrete" attracts the most placements and sits near the center of the grid.
+- Interpretation: coordination themes are viewed as impactful but harder, while concreteness themes are more balanced.
+
+Task 9: Participant Mapping Styles
+- Average participant placement trends: mean_x≈4.68, mean_y≈4.89 with a 36% high-high tendency.
+- A few participants show strong high-high clustering, while others are more variable.
+- Interpretation: participants differ in optimism/ambition, with some strongly emphasizing high impact/feasibility.
+
+Task 10: Participant Extremity & Consistency
+- Average extremity rate is ~33%, with notable outliers above 50% edge placements.
+- Within-person dispersion varies; a few participants are highly consistent while others show wide spread.
+- Interpretation: some participants systematically favor extremes or show tight clustering, shaping consensus patterns.
+
+Task 11: Participant Profile Clustering
+- Two clusters are identified; one small cluster of 2 participants stands apart from the rest.
+- Silhouette scores favor k=2; gap statistic is inconclusive but supports this split.
+- Interpretation: most participants cluster into a dominant shared profile, with a small distinct subgroup.
+
+Task 12: (No summary file provided)
+- Interpretation pending; outputs for Task 12 were not found in the outputs folder.
+
+Task 13: Function Differences
+- No significant differences by function (Kruskal-Wallis p>0.4 for X, p>0.79 for Y).
+- Operations shows the largest centroid distances vs several functions.
+- Interpretation: function-level differences exist but are not statistically strong overall.
+
+Task 14: Country Differences
+- Significant differences across countries (p≈0.005 for X, p≈0.004 for Y).
+- Largest gaps involve France, Singapore, and Thailand.
+- Interpretation: national context appears to shape perceptions of impact and implementability.
+
+Task 15: Role Level Differences
+- No meaningful differences across role levels (p≈0.92 for X, p≈0.70 for Y).
+- Centroid gaps are small (<0.5).
+- Interpretation: seniority does not strongly explain placement patterns.
+
+Task 16: Tenure vs Implementability/Impact
+- Tenure correlates weakly with implementability (r=-0.14) and moderately with impact (r=0.42), but only extremity is significant (r=0.53, p≈0.033).
+- Interpretation: longer tenure aligns with more extreme placements rather than systematically higher/lower scores.
+
+Task 17: Hybrid% vs Placement Patterns
+- Hybrid% is negatively correlated with implementability (r=-0.52) and positively with impact (r=0.60), both significant.
+- Statement-level correlations show strong alignment on specific items.
+- Interpretation: higher hybrid exposure shifts perceptions toward higher impact but lower feasibility.
+
+Task 18: Raw vs Seed Placement Differences
+- Raw placements skew higher on both axes than seeds (mean differences ≈ +0.9 to +1.1).
+- Raw placements are less dispersed on impact than seeds, but similar extremity rates.
+- Interpretation: raw ideas trend more optimistic (higher impact/feasibility) than curated seed statements.
+
+Task 19: Raw Theme Mapping
+- Communication & Change dominates placements; most themes cluster high on impact.
+- People & Resourcing shows lower implementability with similar impact.
+- Interpretation: raw ideas heavily emphasize communication, with some resource/process themes seen as harder to execute.
+
+Task 20: Raw vs Seed Alignment
+- All 71 raw statements map to a seed; 55 reinforce, 16 are mixed, none contradict.
+- Mean distance to nearest seed is ~1.24 cells, indicating close alignment.
+- Interpretation: raw submissions largely reinforce seed priorities with limited divergence.
 
 Overall Insight
-- The analysis suggests stronger consensus on implementability than on impact (Task 1), a few dominant consensus zones (Task 2), and several statements with high local agreement (Task 3). Together, these results indicate shared structural views of the landscape with more debate on perceived impact than feasibility.
+- Consensus is stronger on feasibility than impact, with clustered agreement zones and only a few high-controversy items.
+- Participant factors (tenure, hybrid exposure, country) explain more variation than role or function.
+- Raw ideas align closely with seed priorities but skew more optimistic on both axes.
