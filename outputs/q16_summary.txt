@@ -1,0 +1,23 @@
+Q16 Tenure vs Implementability/Impact Summary
+==============================================
+Participants included: 16
+Average tenure (years): 15.44
+Median tenure (years): 15.00
+Average placements per participant: 21.81
+
+Average participant tendencies
+-------------------------------
+Mean implementability (x): 4.68
+Mean impact (y): 4.89
+Average extremity rate: 32.35%
+
+Tenure correlations (Pearson r)
+--------------------------------
+Tenure vs mean implementability (x): r = -0.14, p = 0.617
+Tenure vs mean impact (y): r = 0.42, p = 0.107
+Tenure vs extremity rate: r = 0.53, p = 0.033
+P-values use a Fisher z approximation (two-tailed).
+
+Interpretation
+--------------
+Positive r indicates higher tenure aligns with higher values; negative r indicates the opposite.
