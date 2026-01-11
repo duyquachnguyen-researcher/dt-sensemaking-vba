@@ -1,0 +1,23 @@
+Q13 Function Differences Summary
+===============================
+Functions included: 12
+Participants included: 16
+Placements included: 278
+
+Overall tests across participant functions
+------------------------------------------
+Kruskal-Wallis p-value (X): 0.4151
+Kruskal-Wallis p-value (Y): 0.7928
+
+Top function pairs by centroid distance
+---------------------------------------
+- Design vs Operations: distance 1.26 (Δx -1.19, Δy -0.42)
+- Operations vs Sales: distance 1.07 (Δx 0.77, Δy 0.74)
+- Operations vs Project management: distance 1.04 (Δx 0.82, Δy 0.63)
+- Engineering vs Operations: distance 1.03 (Δx -1.03, Δy 0.05)
+- IT vs Operations: distance 0.96 (Δx -0.72, Δy -0.63)
+- Finance vs Operations: distance 0.92 (Δx -0.66, Δy -0.63)
+- Logistic vs Operations: distance 0.88 (Δx -0.66, Δy -0.58)
+- Data/Analytics vs Sales: distance 0.84 (Δx -0.02, Δy 0.84)
+- Engineering vs Sales: distance 0.83 (Δx -0.26, Δy 0.79)
+- Operations vs Product: distance 0.82 (Δx 0.82, Δy -0.05)
