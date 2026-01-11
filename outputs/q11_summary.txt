@@ -1,0 +1,54 @@
+Q11 Participant Profile Clustering Summary
+==========================================
+Participants clustered: 16
+Clusters formed: 2
+Stable statements used: 2
+Kmax evaluated: 6
+Gap-selected k: 1
+Silhouette-selected k: 2
+Final k used: 2
+
+Gap statistic results (k, gap, s_k)
+-----------------------------------
+k=1: gap=-0.1376, s_k=0.1269
+k=2: gap=-0.0558, s_k=0.1428
+k=3: gap=-0.0538, s_k=0.1516
+k=4: gap=0.1015, s_k=0.1575
+k=5: gap=0.1800, s_k=0.1803
+k=6: gap=0.1025, s_k=0.1932
+
+Silhouette scores (k, score)
+-----------------------------
+k=2: silhouette=0.4614
+k=3: silhouette=0.3143
+k=4: silhouette=0.3243
+k=5: silhouette=0.4099
+k=6: silhouette=0.3664
+
+Cluster membership
+------------------
+Cluster 1 (n=2):
+  - ad1b9e2e-51bb-4e90-a9ad-816022f82dc4: placements=23, avg_distance_to_cluster=2.89
+  - cdecce63-879c-40b2-b10f-9c7fa53bd875: placements=25, avg_distance_to_cluster=2.89
+
+Cluster 2 (n=14):
+  - 0faae8e3-9d8d-456d-927c-72e3e608a22a: placements=4, avg_distance_to_cluster=2.23
+  - 1bcbccfe-54d9-4e71-b8b9-210f70fb1bbc: placements=24, avg_distance_to_cluster=3.45
+  - 30545a77-664a-44d4-9d54-a7c1993a32b9: placements=14, avg_distance_to_cluster=2.90
+  - 35569596-4e4f-4ef8-ba25-8e0b36d7c77c: placements=24, avg_distance_to_cluster=2.20
+  - 403fcc5a-e686-45f2-bcab-23af322043b8: placements=23, avg_distance_to_cluster=2.02
+  - 7372d8df-8801-4122-acd5-a879fc9db86b: placements=23, avg_distance_to_cluster=1.84
+  - 7cb82cfd-fb62-4f52-9d5d-7a429aef0680: placements=24, avg_distance_to_cluster=1.59
+  - a286d5ad-f97f-4e1f-88c7-4d6e9234c1c8: placements=23, avg_distance_to_cluster=1.59
+  - ab659953-8333-4356-ac9b-53729fb97748: placements=24, avg_distance_to_cluster=1.75
+  - b828caf0-4cef-4a31-9cf0-102b91841982: placements=24, avg_distance_to_cluster=1.59
+  - c9a109b8-eb5c-4ec3-b8c4-7c0dbf4de12b: placements=23, avg_distance_to_cluster=2.15
+  - dfbc11e3-d5d5-4bcc-b914-d89ffa62854f: placements=23, avg_distance_to_cluster=1.72
+  - eb0fc86c-c0b4-447e-a72b-785aa6e61518: placements=25, avg_distance_to_cluster=1.91
+  - fed6c52e-3491-40cf-91df-5c9a734a0926: placements=23, avg_distance_to_cluster=1.59
+
+Sanity checks
+-------------
+Rows in input: 351
+Rows after dedup: 349
+Rows after cleaning x/y: 349
