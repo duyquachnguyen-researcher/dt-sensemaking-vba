@@ -1,0 +1,54 @@
+Q18 Raw vs Seed Placement Summary
+==================================
+Raw placements analyzed: 71
+Raw participants represented: 16
+Seed placements analyzed: 278
+Seed participants represented: 16
+
+Central tendency
+----------------
+Raw mean (x, y): 5.324, 5.732
+Seed mean (x, y): 4.432, 4.629
+Raw median (x, y): 6.000, 6.000
+Seed median (x, y): 5.000, 5.000
+Mean difference raw - seed (x, y): 0.892, 1.103
+Median difference raw - seed (x, y): 1.000, 1.000
+
+Spread and extremity
+--------------------
+Raw SD (x, y): 1.329, 0.999
+Seed SD (x, y): 1.511, 1.955
+Raw extremity rate: 30.99%
+Seed extremity rate: 32.37%
+
+Nonparametric comparison
+------------------------
+Mann-Whitney p-value for X: nan (scipy unavailable)
+Mann-Whitney p-value for Y: nan (scipy unavailable)
+Cliff's delta (raw - seed) for X: 0.358
+Cliff's delta (raw - seed) for Y: 0.285
+
+Top cells (raw)
+---------------
+Cell (6,6) [ID 41]: 14 placements (19.72%)
+Cell (6,5) [ID 40]: 8 placements (11.27%)
+Cell (5,6) [ID 34]: 8 placements (11.27%)
+
+Top cells (seed)
+----------------
+Cell (6,2) [ID 37]: 23 placements (8.27%)
+Cell (4,7) [ID 28]: 23 placements (8.27%)
+Cell (5,5) [ID 33]: 16 placements (5.76%)
+
+Sanity checks
+-------------
+Rows in input: 351
+Rows after dedup: 349
+Rows after raw/seed filter: 349
+Rows after cleaning x/y: 349
+Raw placements after cleaning: 71
+Seed placements after cleaning: 278
+Raw X range: 1.0 to 7.0
+Raw Y range: 3.0 to 7.0
+Seed X range: 1.0 to 7.0
+Seed Y range: 1.0 to 7.0
