@@ -1,0 +1,54 @@
+Q10 Participant Extremity & Consistency Summary
+================================================
+Participants in data: 16
+Participants with >= 5 placements: 15
+Average extremity rate: 32.84%
+Median extremity rate: 29.17%
+Average SD X: 1.48
+Average SD Y: 1.76
+
+Most extreme participants (highest edge-placement rate)
+------------------------------------------------------
+30545a77-664a-44d4-9d54-a7c1993a32b9 (Middle manager | Operations | Thailand): extremity_rate=57.14% (8/14), sd_x=1.34, sd_y=0.77
+ad1b9e2e-51bb-4e90-a9ad-816022f82dc4 (Middle manager | Product | Singapore): extremity_rate=56.52% (13/23), sd_x=1.95, sd_y=1.63
+cdecce63-879c-40b2-b10f-9c7fa53bd875 (Middle manager | Data/Analytics | India): extremity_rate=48.00% (12/25), sd_x=2.08, sd_y=1.12
+fed6c52e-3491-40cf-91df-5c9a734a0926 (Middle manager | Data/Analytics | Viet nam): extremity_rate=39.13% (9/23), sd_x=1.35, sd_y=2.23
+7cb82cfd-fb62-4f52-9d5d-7a429aef0680 (Middle manager | Operations | Viet nam): extremity_rate=37.50% (9/24), sd_x=1.34, sd_y=1.97
+1bcbccfe-54d9-4e71-b8b9-210f70fb1bbc (Staff | Engineering | Vietnam): extremity_rate=37.50% (9/24), sd_x=1.89, sd_y=1.67
+dfbc11e3-d5d5-4bcc-b914-d89ffa62854f (Middle manager | HR | Viet nam): extremity_rate=30.43% (7/23), sd_x=1.47, sd_y=1.74
+ab659953-8333-4356-ac9b-53729fb97748 (Middle manager | Project management | India): extremity_rate=29.17% (7/24), sd_x=1.22, sd_y=2.08
+a286d5ad-f97f-4e1f-88c7-4d6e9234c1c8 (Middle manager | IT | Viet nam): extremity_rate=26.09% (6/23), sd_x=1.30, sd_y=2.04
+7372d8df-8801-4122-acd5-a879fc9db86b (Middle manager | Logistic | Vietnam): extremity_rate=26.09% (6/23), sd_x=1.40, sd_y=1.97
+
+Most consistent participants (lowest within-person dispersion)
+-------------------------------------------------------------
+30545a77-664a-44d4-9d54-a7c1993a32b9 (Middle manager | Operations | Thailand): combined_sd=1.54, sd_x=1.34, sd_y=0.77, placements=14
+b828caf0-4cef-4a31-9cf0-102b91841982 (Senior manager | Internal Audit | Viet Nam): combined_sd=2.17, sd_x=1.31, sd_y=1.73, placements=24
+403fcc5a-e686-45f2-bcab-23af322043b8 (Middle manager | Design | vietnam): combined_sd=2.23, sd_x=1.29, sd_y=1.81, placements=23
+35569596-4e4f-4ef8-ba25-8e0b36d7c77c (Middle manager | Sales | Vietnam): combined_sd=2.28, sd_x=1.32, sd_y=1.86, placements=24
+dfbc11e3-d5d5-4bcc-b914-d89ffa62854f (Middle manager | HR | Viet nam): combined_sd=2.28, sd_x=1.47, sd_y=1.74, placements=23
+eb0fc86c-c0b4-447e-a72b-785aa6e61518 (Senior manager | Finance | vietnam): combined_sd=2.31, sd_x=1.42, sd_y=1.82, placements=25
+cdecce63-879c-40b2-b10f-9c7fa53bd875 (Middle manager | Data/Analytics | India): combined_sd=2.36, sd_x=2.08, sd_y=1.12, placements=25
+7cb82cfd-fb62-4f52-9d5d-7a429aef0680 (Middle manager | Operations | Viet nam): combined_sd=2.38, sd_x=1.34, sd_y=1.97, placements=24
+ab659953-8333-4356-ac9b-53729fb97748 (Middle manager | Project management | India): combined_sd=2.41, sd_x=1.22, sd_y=2.08, placements=24
+7372d8df-8801-4122-acd5-a879fc9db86b (Middle manager | Logistic | Vietnam): combined_sd=2.42, sd_x=1.40, sd_y=1.97, placements=23
+
+Most variable participants (highest within-person dispersion)
+------------------------------------------------------------
+fed6c52e-3491-40cf-91df-5c9a734a0926 (Middle manager | Data/Analytics | Viet nam): combined_sd=2.61, sd_x=1.35, sd_y=2.23, placements=23
+ad1b9e2e-51bb-4e90-a9ad-816022f82dc4 (Middle manager | Product | Singapore): combined_sd=2.54, sd_x=1.95, sd_y=1.63, placements=23
+1bcbccfe-54d9-4e71-b8b9-210f70fb1bbc (Staff | Engineering | Vietnam): combined_sd=2.52, sd_x=1.89, sd_y=1.67, placements=24
+c9a109b8-eb5c-4ec3-b8c4-7c0dbf4de12b (Middle manager | Product | Viet nam): combined_sd=2.50, sd_x=1.50, sd_y=2.00, placements=23
+a286d5ad-f97f-4e1f-88c7-4d6e9234c1c8 (Middle manager | IT | Viet nam): combined_sd=2.42, sd_x=1.30, sd_y=2.04, placements=23
+7372d8df-8801-4122-acd5-a879fc9db86b (Middle manager | Logistic | Vietnam): combined_sd=2.42, sd_x=1.40, sd_y=1.97, placements=23
+ab659953-8333-4356-ac9b-53729fb97748 (Middle manager | Project management | India): combined_sd=2.41, sd_x=1.22, sd_y=2.08, placements=24
+7cb82cfd-fb62-4f52-9d5d-7a429aef0680 (Middle manager | Operations | Viet nam): combined_sd=2.38, sd_x=1.34, sd_y=1.97, placements=24
+cdecce63-879c-40b2-b10f-9c7fa53bd875 (Middle manager | Data/Analytics | India): combined_sd=2.36, sd_x=2.08, sd_y=1.12, placements=25
+eb0fc86c-c0b4-447e-a72b-785aa6e61518 (Senior manager | Finance | vietnam): combined_sd=2.31, sd_x=1.42, sd_y=1.82, placements=25
+
+Sanity checks
+-------------
+Rows in input: 351
+Rows after dedup: 349
+Rows after cleaning x/y: 349
+Participants: 16
