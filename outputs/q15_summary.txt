@@ -1,0 +1,16 @@
+Q15 Role Level Differences Summary
+=================================
+Role levels included: 3
+Participants included: 16
+Placements included: 278
+
+Overall tests across role levels
+-------------------------------
+Kruskal-Wallis p-value (X): 0.9207
+Kruskal-Wallis p-value (Y): 0.6959
+
+Top role-level pairs by centroid distance
+-----------------------------------------
+- Senior manager vs Staff: distance 0.49 (Δx 0.16, Δy -0.46)
+- Middle manager vs Staff: distance 0.26 (Δx 0.16, Δy -0.21)
+- Middle manager vs Senior manager: distance 0.25 (Δx -0.00, Δy 0.25)
