@@ -33,9 +33,11 @@
 
 ### 11) Can participants be grouped into placement profiles based on shared seeds?
 **Method:** Compute pairwise participant distances using only shared seed statements (mean Euclidean distance across shared items). Cluster participants (hierarchical or k-means) to form profiles.
+Clustering seem not to be good because there are only 2 clusters --> Lets excluded q11
 
 ### 12) Which statements best separate participant clusters?
 **Method:** After clustering, compute for each seed statement the between-cluster centroid gap (Δ), overall and by dimension (Δx/Δy). Rank statements by largest gaps.
+Because excluded q11, excluded q12 also
 
 ### 13) Do placements differ by function (e.g., Marketing vs Product)?
 **Method:** For each seed statement, compute group centroids (x̄,ȳ) by function. Rank statements by between-group distance; test differences (Mann–Whitney / Kruskal–Wallis) where feasible.
