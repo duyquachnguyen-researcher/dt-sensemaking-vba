@@ -1,0 +1,13 @@
+Q20 Raw Alignment Summary
+===========================
+Raw statements analyzed: 71
+Average distance to closest seed theme: 1.48
+Quadrant match rate: 80.28%
+
+Sanity checks
+-------------
+Rows in input: 351
+Rows after dedup: 349
+Seed placements: 278
+Raw placements: 71
+Seed themes with centroids: 4

@@ -1,0 +1,27 @@
+Q10 Extremity Summary
+======================
+Participants included: 16
+Average extreme rate: 32.35%
+Average within-person SD: 1.63
+
+Most extreme participants
+--------------------------
+30545a77-664a-44d4-9d54-a7c1993a32b9: extreme_rate=57.14%, sd_x=1.34, sd_y=0.77
+ad1b9e2e-51bb-4e90-a9ad-816022f82dc4: extreme_rate=56.52%, sd_x=1.95, sd_y=1.63
+cdecce63-879c-40b2-b10f-9c7fa53bd875: extreme_rate=48.00%, sd_x=2.08, sd_y=1.12
+fed6c52e-3491-40cf-91df-5c9a734a0926: extreme_rate=39.13%, sd_x=1.35, sd_y=2.23
+7cb82cfd-fb62-4f52-9d5d-7a429aef0680: extreme_rate=37.50%, sd_x=1.34, sd_y=1.97
+
+Most consistent participants
+------------------------------
+30545a77-664a-44d4-9d54-a7c1993a32b9: sd_x=1.34, sd_y=0.77, extreme_rate=57.14%
+b828caf0-4cef-4a31-9cf0-102b91841982: sd_x=1.31, sd_y=1.73, extreme_rate=20.83%
+403fcc5a-e686-45f2-bcab-23af322043b8: sd_x=1.29, sd_y=1.81, extreme_rate=17.39%
+35569596-4e4f-4ef8-ba25-8e0b36d7c77c: sd_x=1.32, sd_y=1.86, extreme_rate=16.67%
+cdecce63-879c-40b2-b10f-9c7fa53bd875: sd_x=2.08, sd_y=1.12, extreme_rate=48.00%
+
+Sanity checks
+-------------
+Rows in input: 351
+Rows after dedup: 349
+Rows after cleaning: 349

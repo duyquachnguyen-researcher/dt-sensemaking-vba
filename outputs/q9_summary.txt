@@ -1,0 +1,20 @@
+Q9 Participant Tendencies Summary
+===============================
+Participants included: 16
+Average mean_x: 4.68
+Average mean_y: 4.89
+Average high-high rate: 36.05%
+
+Top high-high tendencies
+-------------------------
+30545a77-664a-44d4-9d54-a7c1993a32b9: rate=78.57%, mean_x=5.64, mean_y=6.14
+0faae8e3-9d8d-456d-927c-72e3e608a22a: rate=50.00%, mean_x=5.25, mean_y=5.00
+ad1b9e2e-51bb-4e90-a9ad-816022f82dc4: rate=47.83%, mean_x=4.61, mean_y=5.74
+1bcbccfe-54d9-4e71-b8b9-210f70fb1bbc: rate=45.83%, mean_x=4.54, mean_y=5.25
+cdecce63-879c-40b2-b10f-9c7fa53bd875: rate=36.00%, mean_x=3.68, mean_y=5.80
+
+Sanity checks
+-------------
+Rows in input: 351
+Rows after dedup: 349
+Rows after cleaning: 349
