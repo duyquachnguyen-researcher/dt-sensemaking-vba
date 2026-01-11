@@ -1,0 +1,35 @@
+Q9 Participant Mapping Styles Summary
+======================================
+Participants included: 16
+High-high metric: share of placements with x>= 5.0 and y>= 5.0
+
+Overall participant averages
+-----------------------------
+Average mean_x: 4.68
+Average mean_y: 4.89
+Average var_x: 2.12
+Average var_y: 3.13
+Average high-high rate: 36.05%
+
+Top high-high tendency participants
+-----------------------------------
+30545a77-664a-44d4-9d54-a7c1993a32b9: high_high_rate=78.57% (11/14), mean_x=5.64, mean_y=6.14
+0faae8e3-9d8d-456d-927c-72e3e608a22a: high_high_rate=50.00% (2/4), mean_x=5.25, mean_y=5.00
+ad1b9e2e-51bb-4e90-a9ad-816022f82dc4: high_high_rate=47.83% (11/23), mean_x=4.61, mean_y=5.74
+1bcbccfe-54d9-4e71-b8b9-210f70fb1bbc: high_high_rate=45.83% (11/24), mean_x=4.54, mean_y=5.25
+cdecce63-879c-40b2-b10f-9c7fa53bd875: high_high_rate=36.00% (9/25), mean_x=3.68, mean_y=5.80
+
+Most variable participants (var_x + var_y)
+------------------------------------------
+fed6c52e-3491-40cf-91df-5c9a734a0926: total_var=6.50, var_x=1.74, var_y=4.76, placements=23
+ad1b9e2e-51bb-4e90-a9ad-816022f82dc4: total_var=6.17, var_x=3.63, var_y=2.54, placements=23
+1bcbccfe-54d9-4e71-b8b9-210f70fb1bbc: total_var=6.10, var_x=3.41, var_y=2.69, placements=24
+c9a109b8-eb5c-4ec3-b8c4-7c0dbf4de12b: total_var=5.97, var_x=2.16, var_y=3.81, placements=23
+a286d5ad-f97f-4e1f-88c7-4d6e9234c1c8: total_var=5.60, var_x=1.62, var_y=3.98, placements=23
+
+Sanity checks
+-------------
+Rows in input: 351
+Rows after dedup: 349
+Rows after filtering: 349
+Participants (unique tokens): 16
