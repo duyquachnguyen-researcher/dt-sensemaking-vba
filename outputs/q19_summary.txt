@@ -1,0 +1,57 @@
+Q19 Raw Theme Mapping Summary
+==============================
+Themes included: 8
+
+Theme centroids
+--------------
+Communication & Change: mean_x=5.88, mean_y=5.36, sd_x=0.88, sd_y=1.22, placements=25, statements=25
+Goals, KPIs & Strategy: mean_x=5.08, mean_y=6.00, sd_x=0.79, sd_y=0.95, placements=12, statements=12
+Training & Skills: mean_x=5.56, mean_y=5.67, sd_x=1.01, sd_y=0.71, placements=9, statements=9
+Process & Compliance: mean_x=4.71, mean_y=6.00, sd_x=1.80, sd_y=0.82, placements=7, statements=7
+Technology & Infrastructure: mean_x=5.86, mean_y=6.00, sd_x=0.90, sd_y=0.82, placements=7, statements=7
+People & Resourcing: mean_x=3.67, mean_y=6.00, sd_x=2.16, sd_y=0.63, placements=6, statements=6
+Other / Placeholder: mean_x=4.50, mean_y=5.75, sd_x=1.73, sd_y=0.96, placements=4, statements=4
+Data & Integration: mean_x=6.00, mean_y=7.00, sd_x=0.00, sd_y=0.00, placements=1, statements=1
+
+Example statements
+------------------
+Communication & Change:
+  - Develop a roadmap for achieving strategic goals, defining specific targets for each milestone in the roadmap.
+  - Regularly review, update strategic goals to align with the company's actual needs.
+Data & Integration:
+  - Data used for digital transformation must be comprehensively collected to avoid any inaccuracies.
+Goals, KPIs & Strategy:
+  - Define digital transformation objectives.
+  - Build KPIs for each department based on digital transformation objectives
+Other / Placeholder:
+  - Request parts quickly, eliminate unnecessary intermediate steps.
+  - Continuous improvement
+People & Resourcing:
+  - Conduct periodic performance reviews, reward/penalty programs.
+  - Select the best personnel from various departments to focus on the digitalization project.
+Process & Compliance:
+  - The meeting reports must be exported from the real-time system.
+  - Consider solutions: processes, application systems, technologies, etc.
+Technology & Infrastructure:
+  - Reorganize, train all employees to be ready to work effectively within the digital system.
+  - There is a reward system for individuals who are poineers in successfully applying new technologies.
+Training & Skills:
+  - Establish regular digital skills training programs.
+  - Ensure that when the technology is ready, people also have the necessary skills to operate it.
+
+Top themes by placements
+------------------------
+Communication & Change: placements=25, mean_x=5.88, mean_y=5.36
+Goals, KPIs & Strategy: placements=12, mean_x=5.08, mean_y=6.00
+Training & Skills: placements=9, mean_x=5.56, mean_y=5.67
+Process & Compliance: placements=7, mean_x=4.71, mean_y=6.00
+Technology & Infrastructure: placements=7, mean_x=5.86, mean_y=6.00
+
+Sanity checks
+-------------
+Rows in input: 351
+Rows after dedup: 349
+Rows after raw filter: 71
+Participants (unique tokens): 16
+Raw statements with placements: 71
+Raw statements total: 73
