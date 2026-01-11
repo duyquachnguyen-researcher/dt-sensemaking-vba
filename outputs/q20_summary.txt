@@ -1,0 +1,29 @@
+Q20 Raw vs Seed Alignment Summary
+================================
+Raw statements with placements: 71
+Seed statements with placements: 12
+Raw statements mapped to a seed: 71
+Mean distance to nearest seed: 1.24
+Median distance to nearest seed: 1.28
+
+Alignment breakdown
+-------------------
+Reinforces: 55
+Mixed: 16
+Contradicts: 0
+
+Closest raw statements to seed priorities
+----------------------------------------
+- Communicate to employees that digital transformation brings about positive, far reaching changes, from work progresses to daily problem-solving. (raw 69613b40078b23352ef473eb) → seed 69593dc0eac6a120dc6e88a1 distance 0.33, mixed, quadrants Easy / High impact vs Easy / Low impact
+- Creat fit/gap tables, regularly update processing status to department members (raw 695c03cb6ff1bc0ae7776f0b) → seed 69593dc0eac6a120dc6e88a1 distance 0.33, mixed, quadrants Easy / High impact vs Easy / Low impact
+- Establish a commitment to achieving the common goals of all departments. (raw 695bdab29c08a22c055703fa) → seed 69593dc0eac6a120dc6e88a1 distance 0.33, mixed, quadrants Easy / High impact vs Easy / Low impact
+- Ensure that when the technology is ready, people also have the necessary skills to operate it. (raw 69623ec668afe0c8507ae99c) → seed 69593daf0a570c24336526d8 distance 0.42, reinforces, quadrants Easy / High impact vs Easy / High impact
+- To combines improvement ideas from department members based on practical experience to achieve department goals. (raw 695be2deb254a16120c3de01) → seed 69593daf0a570c24336526d8 distance 0.42, reinforces, quadrants Easy / High impact vs Easy / High impact
+
+Farthest raw statements from seed priorities
+--------------------------------------------
+- The meeting reports must be exported from the real-time system. (raw 69623e5ae0640bffa8f7cf43) → seed 69593ddac1fb00b7ab7169e6 distance 2.85, reinforces, quadrants Easy / High impact vs Easy / High impact
+- Let employees (and middle managers) know that new technology wil not cost them their jobs. (raw 695c9fc800ae14b00cbc8dc1) → seed 69593ddac1fb00b7ab7169e6 distance 2.85, reinforces, quadrants Easy / High impact vs Easy / High impact
+- The software that is currently in use cannot be replaced then must be migrated. (raw 695ba2880c7a0a2e2f75ff9d) → seed 69593ddac1fb00b7ab7169e6 distance 2.85, reinforces, quadrants Easy / High impact vs Easy / High impact
+- Commitment from leadership (raw 695ba3616bd18b710133e15b) → seed 69593ddac1fb00b7ab7169e6 distance 2.85, reinforces, quadrants Easy / High impact vs Easy / High impact
+- Invest in infrastructure, software licenses, personnel training. (raw 695ca03ede38cce0ddc2a03b) → seed 69593ddac1fb00b7ab7169e6 distance 2.52, reinforces, quadrants Easy / High impact vs Easy / High impact
