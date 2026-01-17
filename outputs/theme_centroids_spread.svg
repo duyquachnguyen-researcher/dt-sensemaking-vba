@@ -1,0 +1,52 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='900' height='900' viewBox='0 0 900 900'>
+<line x1='80.0' y1='820.0' x2='80.0' y2='80.0' stroke='#E0E0E0' stroke-width='1' />
+<line x1='80.0' y1='820.0' x2='820.0' y2='820.0' stroke='#E0E0E0' stroke-width='1' />
+<line x1='203.3' y1='820.0' x2='203.3' y2='80.0' stroke='#E0E0E0' stroke-width='1' />
+<line x1='80.0' y1='696.7' x2='820.0' y2='696.7' stroke='#E0E0E0' stroke-width='1' />
+<line x1='326.7' y1='820.0' x2='326.7' y2='80.0' stroke='#E0E0E0' stroke-width='1' />
+<line x1='80.0' y1='573.3' x2='820.0' y2='573.3' stroke='#E0E0E0' stroke-width='1' />
+<line x1='450.0' y1='820.0' x2='450.0' y2='80.0' stroke='#E0E0E0' stroke-width='1' />
+<line x1='80.0' y1='450.0' x2='820.0' y2='450.0' stroke='#E0E0E0' stroke-width='1' />
+<line x1='573.3' y1='820.0' x2='573.3' y2='80.0' stroke='#E0E0E0' stroke-width='1' />
+<line x1='80.0' y1='326.7' x2='820.0' y2='326.7' stroke='#E0E0E0' stroke-width='1' />
+<line x1='696.7' y1='820.0' x2='696.7' y2='80.0' stroke='#E0E0E0' stroke-width='1' />
+<line x1='80.0' y1='203.3' x2='820.0' y2='203.3' stroke='#E0E0E0' stroke-width='1' />
+<line x1='820.0' y1='820.0' x2='820.0' y2='80.0' stroke='#E0E0E0' stroke-width='1' />
+<line x1='80.0' y1='80.0' x2='820.0' y2='80.0' stroke='#E0E0E0' stroke-width='1' />
+<rect x='80.0' y='80.0' width='740.0' height='740.0' fill='none' stroke='#555' stroke-width='2' />
+<ellipse cx='348.7' cy='198.9' rx='164.6' ry='221.3' fill='#4E79A7' fill-opacity='0.15' stroke='#4E79A7' stroke-width='2' />
+<circle cx='348.7' cy='198.9' r='6' fill='#4E79A7' stroke='#222' stroke-width='1' />
+<text x='358.7' y='190.9' font-size='12' fill='#111'>Coordinate across teams and unblock</text>
+<ellipse cx='562.9' cy='424.9' rx='165.6' ry='217.0' fill='#F28E2B' fill-opacity='0.15' stroke='#F28E2B' stroke-width='2' />
+<circle cx='562.9' cy='424.9' r='6' fill='#F28E2B' stroke='#222' stroke-width='1' />
+<text x='572.9' y='416.9' font-size='12' fill='#111'>Handle emotions and risk</text>
+<ellipse cx='569.9' cy='350.9' rx='154.8' ry='249.2' fill='#E15759' fill-opacity='0.15' stroke='#E15759' stroke-width='2' />
+<circle cx='569.9' cy='350.9' r='6' fill='#E15759' stroke='#222' stroke-width='1' />
+<text x='579.9' y='342.9' font-size='12' fill='#111'>Make the goal concrete</text>
+<ellipse cx='428.0' cy='420.6' rx='187.7' ry='225.4' fill='#76B7B2' fill-opacity='0.15' stroke='#76B7B2' stroke-width='2' />
+<circle cx='428.0' cy='420.6' r='6' fill='#76B7B2' stroke='#222' stroke-width='1' />
+<text x='438.0' y='412.6' font-size='12' fill='#111'>Show how work will change</text>
+<text x='80.0' y='845.0' font-size='12' fill='#555' text-anchor='middle'>1</text>
+<text x='65.0' y='824.0' font-size='12' fill='#555' text-anchor='end'>1</text>
+<text x='203.3' y='845.0' font-size='12' fill='#555' text-anchor='middle'>2</text>
+<text x='65.0' y='700.7' font-size='12' fill='#555' text-anchor='end'>2</text>
+<text x='326.7' y='845.0' font-size='12' fill='#555' text-anchor='middle'>3</text>
+<text x='65.0' y='577.3' font-size='12' fill='#555' text-anchor='end'>3</text>
+<text x='450.0' y='845.0' font-size='12' fill='#555' text-anchor='middle'>4</text>
+<text x='65.0' y='454.0' font-size='12' fill='#555' text-anchor='end'>4</text>
+<text x='573.3' y='845.0' font-size='12' fill='#555' text-anchor='middle'>5</text>
+<text x='65.0' y='330.7' font-size='12' fill='#555' text-anchor='end'>5</text>
+<text x='696.7' y='845.0' font-size='12' fill='#555' text-anchor='middle'>6</text>
+<text x='65.0' y='207.3' font-size='12' fill='#555' text-anchor='end'>6</text>
+<text x='820.0' y='845.0' font-size='12' fill='#555' text-anchor='middle'>7</text>
+<text x='65.0' y='84.0' font-size='12' fill='#555' text-anchor='end'>7</text>
+<text x='450.0' y='40.0' font-size='18' fill='#222' text-anchor='middle'>Theme centroids and spread</text>
+<circle cx='830' cy='80' r='6' fill='#4E79A7' />
+<text x='842' y='84' font-size='12' fill='#333'>Coordinate across teams and unblock (n=28)</text>
+<circle cx='830' cy='104' r='6' fill='#F28E2B' />
+<text x='842' y='108' font-size='12' fill='#333'>Handle emotions and risk (n=59)</text>
+<circle cx='830' cy='128' r='6' fill='#E15759' />
+<text x='842' y='132' font-size='12' fill='#333'>Make the goal concrete (n=107)</text>
+<circle cx='830' cy='152' r='6' fill='#76B7B2' />
+<text x='842' y='156' font-size='12' fill='#333'>Show how work will change (n=84)</text>
+</svg>
