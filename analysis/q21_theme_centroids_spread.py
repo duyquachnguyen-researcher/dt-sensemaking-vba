@@ -203,7 +203,12 @@ def map_point(x: float, y: float, width: int, height: int, margin: int) -> tuple
 def svg_header(width: int, height: int) -> str:
     return (
         f"<svg xmlns='http://www.w3.org/2000/svg' width='{width}' height='{height}' "
-        f"viewBox='0 0 {width} {height}'>"
+        f"viewBox='0 0 {width} {height}'>\n"
+        "<defs>\n"
+        "  <marker id='axis-arrow' markerWidth='12' markerHeight='12' refX='10' refY='6' orient='auto'>\n"
+        "    <path d='M0,0 L12,6 L0,12 Z' fill='#000' />\n"
+        "  </marker>\n"
+        "</defs>"
     )
 
 
@@ -214,13 +219,13 @@ def draw_grid(width: int, height: int, margin: int) -> list[str]:
         x2, y2 = map_point(tick, GRID_MAX, width, height, margin)
         lines.append(
             f"<line x1='{x1:.1f}' y1='{y1:.1f}' x2='{x2:.1f}' y2='{y2:.1f}' "
-            "stroke='#E0E0E0' stroke-width='1' />"
+            "stroke='#000' stroke-width='1' />"
         )
         x1, y1 = map_point(GRID_MIN, tick, width, height, margin)
         x2, y2 = map_point(GRID_MAX, tick, width, height, margin)
         lines.append(
             f"<line x1='{x1:.1f}' y1='{y1:.1f}' x2='{x2:.1f}' y2='{y2:.1f}' "
-            "stroke='#E0E0E0' stroke-width='1' />"
+            "stroke='#000' stroke-width='1' />"
         )
     return lines
 
@@ -229,8 +234,10 @@ def draw_axes(width: int, height: int, margin: int) -> list[str]:
     x_min, y_min = map_point(GRID_MIN, GRID_MIN, width, height, margin)
     x_max, y_max = map_point(GRID_MAX, GRID_MAX, width, height, margin)
     return [
-        f"<rect x='{x_min:.1f}' y='{y_max:.1f}' width='{(x_max - x_min):.1f}' "
-        f"height='{(y_min - y_max):.1f}' fill='none' stroke='#555' stroke-width='2' />"
+        f"<line x1='{x_min:.1f}' y1='{y_min:.1f}' x2='{x_max + 20:.1f}' "
+        f"y2='{y_min:.1f}' stroke='#000' stroke-width='6' marker-end='url(#axis-arrow)' />",
+        f"<line x1='{x_min:.1f}' y1='{y_min:.1f}' x2='{x_min:.1f}' "
+        f"y2='{y_max - 20:.1f}' stroke='#000' stroke-width='6' marker-end='url(#axis-arrow)' />",
     ]
 
 
@@ -239,17 +246,23 @@ def draw_labels(width: int, height: int, margin: int) -> list[str]:
     for tick in range(GRID_MIN, GRID_MAX + 1):
         x, y = map_point(tick, GRID_MIN, width, height, margin)
         labels.append(
-            f"<text x='{x:.1f}' y='{y + 25:.1f}' font-size='12' "
-            f"fill='#555' text-anchor='middle'>{tick}</text>"
+            f"<text x='{x:.1f}' y='{y + 30:.1f}' font-size='18' "
+            f"fill='#000' text-anchor='middle'>{tick}</text>"
         )
         x, y = map_point(GRID_MIN, tick, width, height, margin)
         labels.append(
-            f"<text x='{x - 15:.1f}' y='{y + 4:.1f}' font-size='12' "
-            f"fill='#555' text-anchor='end'>{tick}</text>"
+            f"<text x='{x - 20:.1f}' y='{y + 6:.1f}' font-size='18' "
+            f"fill='#000' text-anchor='end'>{tick}</text>"
         )
     labels.append(
-        f"<text x='{width / 2:.1f}' y='{margin / 2:.1f}' font-size='18' "
-        "fill='#222' text-anchor='middle'>Theme centroids and spread</text>"
+        f"<text x='{width / 2:.1f}' y='{height - margin / 3:.1f}' font-size='20' "
+        "fill='#000' text-anchor='middle'>Implementability (1 = Hard, 7 = Easy)</text>"
+    )
+    labels.append(
+        f"<text x='{margin / 3:.1f}' y='{height / 2:.1f}' font-size='20' "
+        "fill='#000' text-anchor='middle' transform="
+        f"'rotate(-90 {margin / 3:.1f} {height / 2:.1f})'>"
+        "Degree of impact (1 = Low, 7 = High)</text>"
     )
     return labels
 
@@ -298,7 +311,7 @@ def draw_themes(stats: list[dict[str, Any]], width: int, height: int, margin: in
 
 
 def build_svg(stats: list[dict[str, Any]], width: int, height: int) -> str:
-    margin = 80
+    margin = 110
     parts = [svg_header(width, height)]
     parts.extend(draw_grid(width, height, margin))
     parts.extend(draw_axes(width, height, margin))
