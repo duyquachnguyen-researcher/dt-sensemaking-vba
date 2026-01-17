@@ -205,8 +205,44 @@ def svg_axes():
     return "\n".join(axis) + "\n"
 
 
+def boxes_intersect(a, b):
+    return not (a[2] <= b[0] or a[0] >= b[2] or a[3] <= b[1] or a[1] >= b[3])
+
+
+def clamp(value, low, high):
+    return max(low, min(high, value))
+
+
+def estimate_text_box(x, y, text, font_size=18):
+    width = len(text) * 9
+    height = font_size
+    return (x, y - height, x + width, y)
+
+
+def place_label(x, y, text, placed_boxes):
+    offsets = [(10, -10), (10, 10), (-18, -10), (-18, 10), (0, -18), (0, 18), (18, 0), (-18, 0)]
+    fallback = (10, -10)
+
+    for dx, dy in offsets:
+        candidate_x = x + dx
+        candidate_y = y + dy
+        candidate_x = clamp(candidate_x, PLOT_LEFT, PLOT_RIGHT)
+        candidate_y = clamp(candidate_y, PLOT_TOP + 18, PLOT_BOTTOM)
+        candidate_box = estimate_text_box(candidate_x, candidate_y, text)
+        if not any(boxes_intersect(candidate_box, placed) for placed in placed_boxes):
+            placed_boxes.append(candidate_box)
+            return candidate_x, candidate_y
+
+    candidate_x = clamp(x + fallback[0], PLOT_LEFT, PLOT_RIGHT)
+    candidate_y = clamp(y + fallback[1], PLOT_TOP + 18, PLOT_BOTTOM)
+    candidate_box = estimate_text_box(candidate_x, candidate_y, text)
+    placed_boxes.append(candidate_box)
+    return candidate_x, candidate_y
+
+
 def svg_points(stats):
     elements = []
+    placed_boxes = []
     for idx, stat in enumerate(stats):
         color = COLORS[idx % len(COLORS)]
         x = scale_x(stat.mean_x)
@@ -220,6 +256,19 @@ def svg_points(stats):
             )
         elements.append(
             f"<circle cx='{x:.2f}' cy='{y:.2f}' r='6' fill='{color}' stroke='black' stroke-width='1' />"
+        )
+        label_text = str(stat.display_order)
+        label_x, label_y = place_label(x, y, label_text, placed_boxes)
+        elements.append(
+            f"<text x='{label_x:.2f}' y='{label_y:.2f}' font-size='18' font-family='Arial' "
+            "text-anchor='start' stroke='white' stroke-width='5' paint-order='stroke' "
+            "stroke-linejoin='round'>"
+            f"{label_text}</text>"
+        )
+        elements.append(
+            f"<text x='{label_x:.2f}' y='{label_y:.2f}' font-size='18' font-family='Arial' "
+            "text-anchor='start' fill='black'>"
+            f"{label_text}</text>"
         )
     return "\n".join(elements) + "\n"
 

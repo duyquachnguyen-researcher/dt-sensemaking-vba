@@ -39,42 +39,80 @@
 <text x='40' y='470.00' font-size='32' text-anchor='middle' font-family='Arial' transform='rotate(-90 40 470.00)'>Degree of impact (1 = Low, 7 = High)</text>
 <ellipse cx='531.04' cy='192.92' rx='65.91' ry='41.09' fill='#1f77b4' fill-opacity='0.15' stroke='#1f77b4' stroke-width='2' />
 <circle cx='531.04' cy='192.92' r='6' fill='#1f77b4' stroke='black' stroke-width='1' />
+<text x='541.04' y='182.92' font-size='18' font-family='Arial' text-anchor='start' stroke='white' stroke-width='5' paint-order='stroke' stroke-linejoin='round'>1</text>
+<text x='541.04' y='182.92' font-size='18' font-family='Arial' text-anchor='start' fill='black'>1</text>
 <ellipse cx='495.56' cy='190.00' rx='30.49' ry='48.89' fill='#ff7f0e' fill-opacity='0.15' stroke='#ff7f0e' stroke-width='2' />
 <circle cx='495.56' cy='190.00' r='6' fill='#ff7f0e' stroke='black' stroke-width='1' />
+<text x='505.56' y='180.00' font-size='18' font-family='Arial' text-anchor='start' stroke='white' stroke-width='5' paint-order='stroke' stroke-linejoin='round'>2</text>
+<text x='505.56' y='180.00' font-size='18' font-family='Arial' text-anchor='start' fill='black'>2</text>
 <ellipse cx='472.22' cy='174.44' rx='87.76' ry='54.05' fill='#2ca02c' fill-opacity='0.15' stroke='#2ca02c' stroke-width='2' />
 <circle cx='472.22' cy='174.44' r='6' fill='#2ca02c' stroke='black' stroke-width='1' />
+<text x='482.22' y='164.44' font-size='18' font-family='Arial' text-anchor='start' stroke='white' stroke-width='5' paint-order='stroke' stroke-linejoin='round'>3</text>
+<text x='482.22' y='164.44' font-size='18' font-family='Arial' text-anchor='start' fill='black'>3</text>
 <ellipse cx='682.22' cy='485.56' rx='41.55' ry='104.35' fill='#d62728' fill-opacity='0.15' stroke='#d62728' stroke-width='2' />
 <circle cx='682.22' cy='485.56' r='6' fill='#d62728' stroke='black' stroke-width='1' />
+<text x='692.22' y='475.56' font-size='18' font-family='Arial' text-anchor='start' stroke='white' stroke-width='5' paint-order='stroke' stroke-linejoin='round'>4</text>
+<text x='692.22' y='475.56' font-size='18' font-family='Arial' text-anchor='start' fill='black'>4</text>
 <ellipse cx='674.44' cy='516.67' rx='61.79' ry='119.76' fill='#9467bd' fill-opacity='0.15' stroke='#9467bd' stroke-width='2' />
 <circle cx='674.44' cy='516.67' r='6' fill='#9467bd' stroke='black' stroke-width='1' />
+<text x='684.44' y='506.67' font-size='18' font-family='Arial' text-anchor='start' stroke='white' stroke-width='5' paint-order='stroke' stroke-linejoin='round'>5</text>
+<text x='684.44' y='506.67' font-size='18' font-family='Arial' text-anchor='start' fill='black'>5</text>
 <ellipse cx='611.25' cy='572.08' rx='71.93' ry='88.25' fill='#8c564b' fill-opacity='0.15' stroke='#8c564b' stroke-width='2' />
 <circle cx='611.25' cy='572.08' r='6' fill='#8c564b' stroke='black' stroke-width='1' />
+<text x='621.25' y='562.08' font-size='18' font-family='Arial' text-anchor='start' stroke='white' stroke-width='5' paint-order='stroke' stroke-linejoin='round'>6</text>
+<text x='621.25' y='562.08' font-size='18' font-family='Arial' text-anchor='start' fill='black'>6</text>
 <ellipse cx='690.00' cy='501.11' rx='45.73' ry='108.10' fill='#e377c2' fill-opacity='0.15' stroke='#e377c2' stroke-width='2' />
 <circle cx='690.00' cy='501.11' r='6' fill='#e377c2' stroke='black' stroke-width='1' />
+<text x='700.00' y='511.11' font-size='18' font-family='Arial' text-anchor='start' stroke='white' stroke-width='5' paint-order='stroke' stroke-linejoin='round'>7</text>
+<text x='700.00' y='511.11' font-size='18' font-family='Arial' text-anchor='start' fill='black'>7</text>
 <ellipse cx='523.75' cy='338.75' rx='41.09' ry='58.58' fill='#7f7f7f' fill-opacity='0.15' stroke='#7f7f7f' stroke-width='2' />
 <circle cx='523.75' cy='338.75' r='6' fill='#7f7f7f' stroke='black' stroke-width='1' />
+<text x='533.75' y='328.75' font-size='18' font-family='Arial' text-anchor='start' stroke='white' stroke-width='5' paint-order='stroke' stroke-linejoin='round'>8</text>
+<text x='533.75' y='328.75' font-size='18' font-family='Arial' text-anchor='start' fill='black'>8</text>
 <ellipse cx='752.22' cy='532.22' rx='48.21' ry='137.32' fill='#bcbd22' fill-opacity='0.15' stroke='#bcbd22' stroke-width='2' />
 <circle cx='752.22' cy='532.22' r='6' fill='#bcbd22' stroke='black' stroke-width='1' />
+<text x='762.22' y='522.22' font-size='18' font-family='Arial' text-anchor='start' stroke='white' stroke-width='5' paint-order='stroke' stroke-linejoin='round'>9</text>
+<text x='762.22' y='522.22' font-size='18' font-family='Arial' text-anchor='start' fill='black'>9</text>
 <ellipse cx='526.67' cy='353.33' rx='69.86' ry='59.04' fill='#17becf' fill-opacity='0.15' stroke='#17becf' stroke-width='2' />
 <circle cx='526.67' cy='353.33' r='6' fill='#17becf' stroke='black' stroke-width='1' />
+<text x='536.67' y='363.33' font-size='18' font-family='Arial' text-anchor='start' stroke='white' stroke-width='5' paint-order='stroke' stroke-linejoin='round'>10</text>
+<text x='536.67' y='363.33' font-size='18' font-family='Arial' text-anchor='start' fill='black'>10</text>
 <ellipse cx='538.33' cy='278.33' rx='39.75' ry='45.53' fill='#393b79' fill-opacity='0.15' stroke='#393b79' stroke-width='2' />
 <circle cx='538.33' cy='278.33' r='6' fill='#393b79' stroke='black' stroke-width='1' />
+<text x='548.33' y='268.33' font-size='18' font-family='Arial' text-anchor='start' stroke='white' stroke-width='5' paint-order='stroke' stroke-linejoin='round'>11</text>
+<text x='548.33' y='268.33' font-size='18' font-family='Arial' text-anchor='start' fill='black'>11</text>
 <ellipse cx='546.67' cy='278.33' rx='82.04' ry='97.69' fill='#637939' fill-opacity='0.15' stroke='#637939' stroke-width='2' />
 <circle cx='546.67' cy='278.33' r='6' fill='#637939' stroke='black' stroke-width='1' />
+<text x='556.67' y='288.33' font-size='18' font-family='Arial' text-anchor='start' stroke='white' stroke-width='5' paint-order='stroke' stroke-linejoin='round'>12</text>
+<text x='556.67' y='288.33' font-size='18' font-family='Arial' text-anchor='start' fill='black'>12</text>
 <ellipse cx='530.00' cy='645.00' rx='114.24' ry='66.73' fill='#8c6d31' fill-opacity='0.15' stroke='#8c6d31' stroke-width='2' />
 <circle cx='530.00' cy='645.00' r='6' fill='#8c6d31' stroke='black' stroke-width='1' />
+<text x='540.00' y='635.00' font-size='18' font-family='Arial' text-anchor='start' stroke='white' stroke-width='5' paint-order='stroke' stroke-linejoin='round'>13</text>
+<text x='540.00' y='635.00' font-size='18' font-family='Arial' text-anchor='start' fill='black'>13</text>
 <ellipse cx='280.00' cy='520.00' rx='50.44' ry='111.70' fill='#843c39' fill-opacity='0.15' stroke='#843c39' stroke-width='2' />
 <circle cx='280.00' cy='520.00' r='6' fill='#843c39' stroke='black' stroke-width='1' />
+<text x='290.00' y='510.00' font-size='18' font-family='Arial' text-anchor='start' stroke='white' stroke-width='5' paint-order='stroke' stroke-linejoin='round'>14</text>
+<text x='290.00' y='510.00' font-size='18' font-family='Arial' text-anchor='start' fill='black'>14</text>
 <ellipse cx='480.00' cy='403.33' rx='53.60' ry='66.58' fill='#7b4173' fill-opacity='0.15' stroke='#7b4173' stroke-width='2' />
 <circle cx='480.00' cy='403.33' r='6' fill='#7b4173' stroke='black' stroke-width='1' />
+<text x='490.00' y='393.33' font-size='18' font-family='Arial' text-anchor='start' stroke='white' stroke-width='5' paint-order='stroke' stroke-linejoin='round'>15</text>
+<text x='490.00' y='393.33' font-size='18' font-family='Arial' text-anchor='start' fill='black'>15</text>
 <ellipse cx='380.00' cy='528.33' rx='106.82' ry='119.25' fill='#3182bd' fill-opacity='0.15' stroke='#3182bd' stroke-width='2' />
 <circle cx='380.00' cy='528.33' r='6' fill='#3182bd' stroke='black' stroke-width='1' />
+<text x='390.00' y='518.33' font-size='18' font-family='Arial' text-anchor='start' stroke='white' stroke-width='5' paint-order='stroke' stroke-linejoin='round'>16</text>
+<text x='390.00' y='518.33' font-size='18' font-family='Arial' text-anchor='start' fill='black'>16</text>
 <ellipse cx='296.67' cy='178.33' rx='39.49' ry='66.73' fill='#31a354' fill-opacity='0.15' stroke='#31a354' stroke-width='2' />
 <circle cx='296.67' cy='178.33' r='6' fill='#31a354' stroke='black' stroke-width='1' />
+<text x='306.67' y='168.33' font-size='18' font-family='Arial' text-anchor='start' stroke='white' stroke-width='5' paint-order='stroke' stroke-linejoin='round'>17</text>
+<text x='306.67' y='168.33' font-size='18' font-family='Arial' text-anchor='start' fill='black'>17</text>
 <ellipse cx='471.67' cy='286.67' rx='87.96' ry='137.10' fill='#756bb1' fill-opacity='0.15' stroke='#756bb1' stroke-width='2' />
 <circle cx='471.67' cy='286.67' r='6' fill='#756bb1' stroke='black' stroke-width='1' />
+<text x='481.67' y='276.67' font-size='18' font-family='Arial' text-anchor='start' stroke='white' stroke-width='5' paint-order='stroke' stroke-linejoin='round'>18</text>
+<text x='481.67' y='276.67' font-size='18' font-family='Arial' text-anchor='start' fill='black'>18</text>
 <ellipse cx='538.33' cy='553.33' rx='88.89' ry='105.66' fill='#636363' fill-opacity='0.15' stroke='#636363' stroke-width='2' />
 <circle cx='538.33' cy='553.33' r='6' fill='#636363' stroke='black' stroke-width='1' />
+<text x='548.33' y='543.33' font-size='18' font-family='Arial' text-anchor='start' stroke='white' stroke-width='5' paint-order='stroke' stroke-linejoin='round'>19</text>
+<text x='548.33' y='543.33' font-size='18' font-family='Arial' text-anchor='start' fill='black'>19</text>
 <ellipse cx='890.00' cy='160.00' rx='16' ry='10' fill='#4c78a8' fill-opacity='0.2' stroke='#4c78a8' stroke-width='2' />
 <circle cx='890.00' cy='160.00' r='6' fill='#4c78a8' stroke='black' stroke-width='1' />
 <text x='920.00' y='165.00' font-size='22' font-family='Arial'>Centroid (dot)</text>
