@@ -1,0 +1,59 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='900' height='900' viewBox='0 0 900 900'>
+<defs>
+  <marker id='axis-arrow' markerWidth='12' markerHeight='12' refX='10' refY='6' orient='auto'>
+    <path d='M0,0 L12,6 L0,12 Z' fill='#000' />
+  </marker>
+</defs>
+<line x1='110.0' y1='790.0' x2='110.0' y2='110.0' stroke='#000' stroke-width='1' />
+<line x1='110.0' y1='790.0' x2='790.0' y2='790.0' stroke='#000' stroke-width='1' />
+<line x1='223.3' y1='790.0' x2='223.3' y2='110.0' stroke='#000' stroke-width='1' />
+<line x1='110.0' y1='676.7' x2='790.0' y2='676.7' stroke='#000' stroke-width='1' />
+<line x1='336.7' y1='790.0' x2='336.7' y2='110.0' stroke='#000' stroke-width='1' />
+<line x1='110.0' y1='563.3' x2='790.0' y2='563.3' stroke='#000' stroke-width='1' />
+<line x1='450.0' y1='790.0' x2='450.0' y2='110.0' stroke='#000' stroke-width='1' />
+<line x1='110.0' y1='450.0' x2='790.0' y2='450.0' stroke='#000' stroke-width='1' />
+<line x1='563.3' y1='790.0' x2='563.3' y2='110.0' stroke='#000' stroke-width='1' />
+<line x1='110.0' y1='336.7' x2='790.0' y2='336.7' stroke='#000' stroke-width='1' />
+<line x1='676.7' y1='790.0' x2='676.7' y2='110.0' stroke='#000' stroke-width='1' />
+<line x1='110.0' y1='223.3' x2='790.0' y2='223.3' stroke='#000' stroke-width='1' />
+<line x1='790.0' y1='790.0' x2='790.0' y2='110.0' stroke='#000' stroke-width='1' />
+<line x1='110.0' y1='110.0' x2='790.0' y2='110.0' stroke='#000' stroke-width='1' />
+<line x1='110.0' y1='790.0' x2='810.0' y2='790.0' stroke='#000' stroke-width='6' marker-end='url(#axis-arrow)' />
+<line x1='110.0' y1='790.0' x2='110.0' y2='90.0' stroke='#000' stroke-width='6' marker-end='url(#axis-arrow)' />
+<ellipse cx='356.9' cy='219.3' rx='151.3' ry='203.4' fill='#4E79A7' fill-opacity='0.15' stroke='#4E79A7' stroke-width='2' />
+<circle cx='356.9' cy='219.3' r='6' fill='#4E79A7' stroke='#222' stroke-width='1' />
+<text x='366.9' y='211.3' font-size='12' fill='#111'>Coordinate across teams and unblock</text>
+<ellipse cx='553.7' cy='426.9' rx='152.2' ry='199.4' fill='#F28E2B' fill-opacity='0.15' stroke='#F28E2B' stroke-width='2' />
+<circle cx='553.7' cy='426.9' r='6' fill='#F28E2B' stroke='#222' stroke-width='1' />
+<text x='563.7' y='418.9' font-size='12' fill='#111'>Handle emotions and risk</text>
+<ellipse cx='560.2' cy='358.9' rx='142.2' ry='229.0' fill='#E15759' fill-opacity='0.15' stroke='#E15759' stroke-width='2' />
+<circle cx='560.2' cy='358.9' r='6' fill='#E15759' stroke='#222' stroke-width='1' />
+<text x='570.2' y='350.9' font-size='12' fill='#111'>Make the goal concrete</text>
+<ellipse cx='429.8' cy='423.0' rx='172.5' ry='207.1' fill='#76B7B2' fill-opacity='0.15' stroke='#76B7B2' stroke-width='2' />
+<circle cx='429.8' cy='423.0' r='6' fill='#76B7B2' stroke='#222' stroke-width='1' />
+<text x='439.8' y='415.0' font-size='12' fill='#111'>Show how work will change</text>
+<text x='110.0' y='820.0' font-size='18' fill='#000' text-anchor='middle'>1</text>
+<text x='90.0' y='796.0' font-size='18' fill='#000' text-anchor='end'>1</text>
+<text x='223.3' y='820.0' font-size='18' fill='#000' text-anchor='middle'>2</text>
+<text x='90.0' y='682.7' font-size='18' fill='#000' text-anchor='end'>2</text>
+<text x='336.7' y='820.0' font-size='18' fill='#000' text-anchor='middle'>3</text>
+<text x='90.0' y='569.3' font-size='18' fill='#000' text-anchor='end'>3</text>
+<text x='450.0' y='820.0' font-size='18' fill='#000' text-anchor='middle'>4</text>
+<text x='90.0' y='456.0' font-size='18' fill='#000' text-anchor='end'>4</text>
+<text x='563.3' y='820.0' font-size='18' fill='#000' text-anchor='middle'>5</text>
+<text x='90.0' y='342.7' font-size='18' fill='#000' text-anchor='end'>5</text>
+<text x='676.7' y='820.0' font-size='18' fill='#000' text-anchor='middle'>6</text>
+<text x='90.0' y='229.3' font-size='18' fill='#000' text-anchor='end'>6</text>
+<text x='790.0' y='820.0' font-size='18' fill='#000' text-anchor='middle'>7</text>
+<text x='90.0' y='116.0' font-size='18' fill='#000' text-anchor='end'>7</text>
+<text x='450.0' y='863.3' font-size='20' fill='#000' text-anchor='middle'>Implementability (1 = Hard, 7 = Easy)</text>
+<text x='36.7' y='450.0' font-size='20' fill='#000' text-anchor='middle' transform='rotate(-90 36.7 450.0)'>Degree of impact (1 = Low, 7 = High)</text>
+<circle cx='800' cy='110' r='6' fill='#4E79A7' />
+<text x='812' y='114' font-size='12' fill='#333'>Coordinate across teams and unblock (n=28)</text>
+<circle cx='800' cy='134' r='6' fill='#F28E2B' />
+<text x='812' y='138' font-size='12' fill='#333'>Handle emotions and risk (n=59)</text>
+<circle cx='800' cy='158' r='6' fill='#E15759' />
+<text x='812' y='162' font-size='12' fill='#333'>Make the goal concrete (n=107)</text>
+<circle cx='800' cy='182' r='6' fill='#76B7B2' />
+<text x='812' y='186' font-size='12' fill='#333'>Show how work will change (n=84)</text>
+</svg>
