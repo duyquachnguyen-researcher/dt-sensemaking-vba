@@ -1,0 +1,82 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='931' height='985' viewBox='0 0 931 985'>
+<defs>
+  <marker id='arrow' viewBox='0 0 10 10' refX='8' refY='5' markerWidth='8' markerHeight='8' orient='auto-start-reverse'>
+    <path d='M 0 0 L 10 5 L 0 10 z' fill='black' />
+  </marker>
+</defs>
+<rect width='100%' height='100%' fill='white' />
+<line x1='130.00' y1='120' x2='130.00' y2='820' stroke='black' stroke-width='2' />
+<line x1='130' y1='820.00' x2='830' y2='820.00' stroke='black' stroke-width='2' />
+<text x='130.00' y='860' font-size='28' text-anchor='middle' font-family='Arial'>1</text>
+<text x='100' y='830.00' font-size='28' text-anchor='middle' font-family='Arial'>1</text>
+<line x1='246.67' y1='120' x2='246.67' y2='820' stroke='black' stroke-width='2' />
+<line x1='130' y1='703.33' x2='830' y2='703.33' stroke='black' stroke-width='2' />
+<text x='246.67' y='860' font-size='28' text-anchor='middle' font-family='Arial'>2</text>
+<text x='100' y='713.33' font-size='28' text-anchor='middle' font-family='Arial'>2</text>
+<line x1='363.33' y1='120' x2='363.33' y2='820' stroke='black' stroke-width='2' />
+<line x1='130' y1='586.67' x2='830' y2='586.67' stroke='black' stroke-width='2' />
+<text x='363.33' y='860' font-size='28' text-anchor='middle' font-family='Arial'>3</text>
+<text x='100' y='596.67' font-size='28' text-anchor='middle' font-family='Arial'>3</text>
+<line x1='480.00' y1='120' x2='480.00' y2='820' stroke='black' stroke-width='2' />
+<line x1='130' y1='470.00' x2='830' y2='470.00' stroke='black' stroke-width='2' />
+<text x='480.00' y='860' font-size='28' text-anchor='middle' font-family='Arial'>4</text>
+<text x='100' y='480.00' font-size='28' text-anchor='middle' font-family='Arial'>4</text>
+<line x1='596.67' y1='120' x2='596.67' y2='820' stroke='black' stroke-width='2' />
+<line x1='130' y1='353.33' x2='830' y2='353.33' stroke='black' stroke-width='2' />
+<text x='596.67' y='860' font-size='28' text-anchor='middle' font-family='Arial'>5</text>
+<text x='100' y='363.33' font-size='28' text-anchor='middle' font-family='Arial'>5</text>
+<line x1='713.33' y1='120' x2='713.33' y2='820' stroke='black' stroke-width='2' />
+<line x1='130' y1='236.67' x2='830' y2='236.67' stroke='black' stroke-width='2' />
+<text x='713.33' y='860' font-size='28' text-anchor='middle' font-family='Arial'>6</text>
+<text x='100' y='246.67' font-size='28' text-anchor='middle' font-family='Arial'>6</text>
+<line x1='830.00' y1='120' x2='830.00' y2='820' stroke='black' stroke-width='2' />
+<line x1='130' y1='120.00' x2='830' y2='120.00' stroke='black' stroke-width='2' />
+<text x='830.00' y='860' font-size='28' text-anchor='middle' font-family='Arial'>7</text>
+<text x='100' y='130.00' font-size='28' text-anchor='middle' font-family='Arial'>7</text>
+<line x1='130' y1='820' x2='880' y2='820' stroke='black' stroke-width='8' marker-end='url(#arrow)' />
+<line x1='130' y1='820' x2='130' y2='70' stroke='black' stroke-width='8' marker-end='url(#arrow)' />
+<text x='480.00' y='930' font-size='32' text-anchor='middle' font-family='Arial'>Implementability (1 = Hard, 7 = Easy)</text>
+<text x='40' y='470.00' font-size='32' text-anchor='middle' font-family='Arial' transform='rotate(-90 40 470.00)'>Degree of impact (1 = Low, 7 = High)</text>
+<ellipse cx='531.04' cy='192.92' rx='65.91' ry='41.09' fill='#1f77b4' fill-opacity='0.15' stroke='#1f77b4' stroke-width='2' />
+<circle cx='531.04' cy='192.92' r='6' fill='#1f77b4' stroke='black' stroke-width='1' />
+<ellipse cx='495.56' cy='190.00' rx='30.49' ry='48.89' fill='#ff7f0e' fill-opacity='0.15' stroke='#ff7f0e' stroke-width='2' />
+<circle cx='495.56' cy='190.00' r='6' fill='#ff7f0e' stroke='black' stroke-width='1' />
+<ellipse cx='472.22' cy='174.44' rx='87.76' ry='54.05' fill='#2ca02c' fill-opacity='0.15' stroke='#2ca02c' stroke-width='2' />
+<circle cx='472.22' cy='174.44' r='6' fill='#2ca02c' stroke='black' stroke-width='1' />
+<ellipse cx='682.22' cy='485.56' rx='41.55' ry='104.35' fill='#d62728' fill-opacity='0.15' stroke='#d62728' stroke-width='2' />
+<circle cx='682.22' cy='485.56' r='6' fill='#d62728' stroke='black' stroke-width='1' />
+<ellipse cx='674.44' cy='516.67' rx='61.79' ry='119.76' fill='#9467bd' fill-opacity='0.15' stroke='#9467bd' stroke-width='2' />
+<circle cx='674.44' cy='516.67' r='6' fill='#9467bd' stroke='black' stroke-width='1' />
+<ellipse cx='611.25' cy='572.08' rx='71.93' ry='88.25' fill='#8c564b' fill-opacity='0.15' stroke='#8c564b' stroke-width='2' />
+<circle cx='611.25' cy='572.08' r='6' fill='#8c564b' stroke='black' stroke-width='1' />
+<ellipse cx='690.00' cy='501.11' rx='45.73' ry='108.10' fill='#e377c2' fill-opacity='0.15' stroke='#e377c2' stroke-width='2' />
+<circle cx='690.00' cy='501.11' r='6' fill='#e377c2' stroke='black' stroke-width='1' />
+<ellipse cx='523.75' cy='338.75' rx='41.09' ry='58.58' fill='#7f7f7f' fill-opacity='0.15' stroke='#7f7f7f' stroke-width='2' />
+<circle cx='523.75' cy='338.75' r='6' fill='#7f7f7f' stroke='black' stroke-width='1' />
+<ellipse cx='752.22' cy='532.22' rx='48.21' ry='137.32' fill='#bcbd22' fill-opacity='0.15' stroke='#bcbd22' stroke-width='2' />
+<circle cx='752.22' cy='532.22' r='6' fill='#bcbd22' stroke='black' stroke-width='1' />
+<ellipse cx='526.67' cy='353.33' rx='69.86' ry='59.04' fill='#17becf' fill-opacity='0.15' stroke='#17becf' stroke-width='2' />
+<circle cx='526.67' cy='353.33' r='6' fill='#17becf' stroke='black' stroke-width='1' />
+<ellipse cx='538.33' cy='278.33' rx='39.75' ry='45.53' fill='#393b79' fill-opacity='0.15' stroke='#393b79' stroke-width='2' />
+<circle cx='538.33' cy='278.33' r='6' fill='#393b79' stroke='black' stroke-width='1' />
+<ellipse cx='546.67' cy='278.33' rx='82.04' ry='97.69' fill='#637939' fill-opacity='0.15' stroke='#637939' stroke-width='2' />
+<circle cx='546.67' cy='278.33' r='6' fill='#637939' stroke='black' stroke-width='1' />
+<ellipse cx='530.00' cy='645.00' rx='114.24' ry='66.73' fill='#8c6d31' fill-opacity='0.15' stroke='#8c6d31' stroke-width='2' />
+<circle cx='530.00' cy='645.00' r='6' fill='#8c6d31' stroke='black' stroke-width='1' />
+<ellipse cx='280.00' cy='520.00' rx='50.44' ry='111.70' fill='#843c39' fill-opacity='0.15' stroke='#843c39' stroke-width='2' />
+<circle cx='280.00' cy='520.00' r='6' fill='#843c39' stroke='black' stroke-width='1' />
+<ellipse cx='480.00' cy='403.33' rx='53.60' ry='66.58' fill='#7b4173' fill-opacity='0.15' stroke='#7b4173' stroke-width='2' />
+<circle cx='480.00' cy='403.33' r='6' fill='#7b4173' stroke='black' stroke-width='1' />
+<ellipse cx='380.00' cy='528.33' rx='106.82' ry='119.25' fill='#3182bd' fill-opacity='0.15' stroke='#3182bd' stroke-width='2' />
+<circle cx='380.00' cy='528.33' r='6' fill='#3182bd' stroke='black' stroke-width='1' />
+<ellipse cx='296.67' cy='178.33' rx='39.49' ry='66.73' fill='#31a354' fill-opacity='0.15' stroke='#31a354' stroke-width='2' />
+<circle cx='296.67' cy='178.33' r='6' fill='#31a354' stroke='black' stroke-width='1' />
+<ellipse cx='471.67' cy='286.67' rx='87.96' ry='137.10' fill='#756bb1' fill-opacity='0.15' stroke='#756bb1' stroke-width='2' />
+<circle cx='471.67' cy='286.67' r='6' fill='#756bb1' stroke='black' stroke-width='1' />
+<ellipse cx='538.33' cy='553.33' rx='88.89' ry='105.66' fill='#636363' fill-opacity='0.15' stroke='#636363' stroke-width='2' />
+<circle cx='538.33' cy='553.33' r='6' fill='#636363' stroke='black' stroke-width='1' />
+<ellipse cx='890.00' cy='160.00' rx='16' ry='10' fill='#4c78a8' fill-opacity='0.2' stroke='#4c78a8' stroke-width='2' />
+<circle cx='890.00' cy='160.00' r='6' fill='#4c78a8' stroke='black' stroke-width='1' />
+<text x='920.00' y='165.00' font-size='22' font-family='Arial'>Centroid (dot)</text>
+<text x='920.00' y='195.00' font-size='22' font-family='Arial'>95% confidence interval (area)</text>
+</svg>
