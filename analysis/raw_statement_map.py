@@ -1,12 +1,13 @@
-"""Create a map of raw statements using their placement centroids."""
+"""Create a bubble count heatmap for raw statement placements."""
 
 from __future__ import annotations
 
 import csv
-from collections import defaultdict
+from collections import Counter
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
+RAW_STATEMENT_PATH = REPO_ROOT / "StatementRaw.csv"
 PLACEMENT_PATH = REPO_ROOT / "Placement.csv"
 OUTPUT_PATH = REPO_ROOT / "outputs" / "raw_statement_map.svg"
 
@@ -21,32 +22,49 @@ PLOT_BOTTOM = PLOT_TOP + PLOT_HEIGHT
 
 GRID_MIN = 1
 GRID_MAX = 7
-GRID_RANGE = GRID_MAX - GRID_MIN
+GRID_BOUND_MIN = 0.5
+GRID_BOUND_MAX = 7.5
+GRID_RANGE = GRID_BOUND_MAX - GRID_BOUND_MIN
 
 AXIS_STROKE = 8
 GRID_STROKE = 2
-POINT_RADIUS = 8
-JITTER_STEP = 0.07
-JITTER_MAX = 0.18
+R_MIN = 6
+R_MAX = 22
+LABEL_MIN_COUNT = 5
+LEGEND_X = PLOT_RIGHT + 35
+LEGEND_Y = PLOT_TOP + 20
 
 
-def load_placements() -> list[dict[str, str]]:
+def load_raw_ids() -> set[str]:
+    raw_ids: set[str] = set()
+    with RAW_STATEMENT_PATH.open(newline="", encoding="utf-8") as handle:
+        reader = csv.DictReader(handle)
+        for row in reader:
+            statement_id = row.get("id")
+            if statement_id:
+                raw_ids.add(statement_id)
+    return raw_ids
+
+
+def load_placements(raw_ids: set[str]) -> list[dict[str, str]]:
     placements: list[dict[str, str]] = []
     with PLACEMENT_PATH.open(newline="", encoding="utf-8") as handle:
         reader = csv.DictReader(handle)
         for row in reader:
             if not row.get("x") or not row.get("y"):
                 continue
+            if row.get("canonical_id") not in raw_ids:
+                continue
             placements.append(row)
     return placements
 
 
 def scale_x(value: float) -> float:
-    return PLOT_LEFT + (value - GRID_MIN) / GRID_RANGE * PLOT_WIDTH
+    return PLOT_LEFT + (value - GRID_BOUND_MIN) / GRID_RANGE * PLOT_WIDTH
 
 
 def scale_y(value: float) -> float:
-    return PLOT_BOTTOM - (value - GRID_MIN) / GRID_RANGE * PLOT_HEIGHT
+    return PLOT_BOTTOM - (value - GRID_BOUND_MIN) / GRID_RANGE * PLOT_HEIGHT
 
 
 def svg_header() -> str:
@@ -69,9 +87,10 @@ def svg_defs() -> str:
 
 def svg_grid() -> str:
     lines = []
-    for i in range(GRID_MIN, GRID_MAX + 1):
-        x = scale_x(i)
-        y = scale_y(i)
+    for boundary in range(GRID_MIN, GRID_MAX + 2):
+        position = boundary - 0.5
+        x = scale_x(position)
+        y = scale_y(position)
         lines.append(
             f"<line x1='{x:.2f}' y1='{PLOT_TOP}' x2='{x:.2f}' y2='{PLOT_BOTTOM}' "
             f"stroke='black' stroke-width='{GRID_STROKE}' />"
@@ -80,6 +99,9 @@ def svg_grid() -> str:
             f"<line x1='{PLOT_LEFT}' y1='{y:.2f}' x2='{PLOT_RIGHT}' y2='{y:.2f}' "
             f"stroke='black' stroke-width='{GRID_STROKE}' />"
         )
+    for i in range(GRID_MIN, GRID_MAX + 1):
+        x = scale_x(i)
+        y = scale_y(i)
         lines.append(
             f"<text x='{x:.2f}' y='{PLOT_BOTTOM + 40}' font-size='28' "
             "text-anchor='middle' font-family='Arial'>"
@@ -121,56 +143,91 @@ def svg_axes() -> str:
     return "\n".join(axis) + "\n"
 
 
-def build_offsets(count: int) -> list[tuple[float, float]]:
-    offsets: list[tuple[float, float]] = [(0.0, 0.0)]
-    ring = 1
-    while len(offsets) < count:
-        step = ring * JITTER_STEP
-        candidates = [
-            (step, 0.0),
-            (-step, 0.0),
-            (0.0, step),
-            (0.0, -step),
-            (step, step),
-            (step, -step),
-            (-step, step),
-            (-step, -step),
-        ]
-        offsets.extend(candidates)
-        ring += 1
-    return offsets[:count]
-
-
-def clamp(value: float, low: float, high: float) -> float:
-    return max(low, min(high, value))
+def bubble_radius(count: int, max_count: int) -> float:
+    if max_count <= 1:
+        return float(R_MIN)
+    return R_MIN + ((count**0.5 - 1) / (max_count**0.5 - 1)) * (R_MAX - R_MIN)
 
 
 def svg_points(rows: list[dict[str, str]]) -> str:
     elements = []
-    grouped: dict[tuple[int, int], list[dict[str, str]]] = defaultdict(list)
+    cell_counts: Counter[tuple[int, int]] = Counter()
     for row in rows:
         try:
             x_int = int(round(float(row["x"])))
             y_int = int(round(float(row["y"])))
         except (KeyError, TypeError, ValueError):
             continue
-        grouped[(x_int, y_int)].append(row)
-    for (x_int, y_int), group in sorted(grouped.items()):
-        ordered = sorted(group, key=lambda r: (r.get("canonical_id", ""), r.get("id", "")))
-        offsets = build_offsets(len(ordered))
-        for row, (dx, dy) in zip(ordered, offsets):
-            dx = clamp(dx, -JITTER_MAX, JITTER_MAX)
-            dy = clamp(dy, -JITTER_MAX, JITTER_MAX)
-            x = scale_x(x_int + dx)
-            y = scale_y(y_int + dy)
+        if GRID_MIN <= x_int <= GRID_MAX and GRID_MIN <= y_int <= GRID_MAX:
+            cell_counts[(x_int, y_int)] += 1
+    if not cell_counts:
+        return ""
+    max_count = max(cell_counts.values())
+    for (x_int, y_int), count in sorted(cell_counts.items()):
+        x = scale_x(x_int)
+        y = scale_y(y_int)
+        radius = bubble_radius(count, max_count)
+        elements.append(
+            f"<circle cx='{x:.2f}' cy='{y:.2f}' r='{radius:.2f}' "
+            "fill='white' fill-opacity='0.85' stroke='black' stroke-width='2' />"
+        )
+        if count >= LABEL_MIN_COUNT:
             elements.append(
-                f"<circle cx='{x:.2f}' cy='{y:.2f}' r='{POINT_RADIUS}' "
-                "fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />"
+                f"<text x='{x:.2f}' y='{y + 6:.2f}' font-size='14' "
+                "text-anchor='middle' font-family='Arial' stroke='white' "
+                "stroke-width='4' paint-order='stroke'>"
+                f"{count}</text>"
+            )
+            elements.append(
+                f"<text x='{x:.2f}' y='{y + 6:.2f}' font-size='14' "
+                "text-anchor='middle' font-family='Arial' fill='black'>"
+                f"{count}</text>"
             )
     return "\n".join(elements) + "\n"
 
 
+def svg_legend(max_count: int) -> str:
+    if max_count <= 0:
+        return ""
+    sample_counts = [1]
+    if max_count >= 5:
+        sample_counts.append(5)
+    if max_count > 1:
+        sample_counts.append(max_count)
+    legend_items = [
+        (
+            f"<text x='{LEGEND_X:.2f}' y='{LEGEND_Y:.2f}' font-size='22' "
+            "font-family='Arial'>Bubble size = # placements</text>"
+        )
+    ]
+    for index, count in enumerate(sample_counts):
+        radius = bubble_radius(count, max_count)
+        cy = LEGEND_Y + 40 + index * 60
+        cx = LEGEND_X + 20 + radius
+        legend_items.append(
+            f"<circle cx='{cx:.2f}' cy='{cy:.2f}' r='{radius:.2f}' "
+            "fill='white' fill-opacity='0.85' stroke='black' stroke-width='2' />"
+        )
+        label = "Max" if count == max_count else str(count)
+        legend_items.append(
+            f"<text x='{cx + radius + 12:.2f}' y='{cy + 5:.2f}' "
+            "font-size='18' font-family='Arial'>"
+            f"{label}</text>"
+        )
+    return "\n".join(legend_items) + "\n"
+
+
 def build_svg(rows: list[dict[str, str]]) -> str:
+    counts: Counter[tuple[int, int]] = Counter()
+    for row in rows:
+        try:
+            x_int = int(round(float(row["x"])))
+            y_int = int(round(float(row["y"])))
+        except (KeyError, TypeError, ValueError):
+            continue
+        if GRID_MIN <= x_int <= GRID_MAX and GRID_MIN <= y_int <= GRID_MAX:
+            counts[(x_int, y_int)] += 1
+    max_count = max(counts.values(), default=0)
     content = [
         svg_header(),
         svg_defs(),
@@ -178,13 +235,15 @@ def build_svg(rows: list[dict[str, str]]) -> str:
         svg_grid(),
         svg_axes(),
         svg_points(rows),
+        svg_legend(max_count),
         "</svg>\n",
     ]
     return "".join(content)
 
 
 def main() -> None:
-    placements = load_placements()
+    raw_ids = load_raw_ids()
+    placements = load_placements(raw_ids)
     svg = build_svg(placements)
     OUTPUT_PATH.write_text(svg, encoding="utf-8")
     print(f"Wrote {OUTPUT_PATH}")
