@@ -145,7 +145,19 @@ def draw_text(img, width, height, x, y, text, color=(0, 0, 0), scale=2):
         cursor_x += (5 + 1) * scale
 
 
-def draw_heatmap(mean_props, title, subtitle, outfile, vmin, vmax, diverging=False):
+def _svg_color(rgb):
+    return f"#{rgb[0]:02x}{rgb[1]:02x}{rgb[2]:02x}"
+
+
+def _svg_text(text):
+    return (
+        text.replace("&", "&amp;")
+        .replace("<", "&lt;")
+        .replace(">", "&gt;")
+    )
+
+
+def draw_heatmap_svg(mean_props, title, subtitle, outfile, vmin, vmax, diverging=False):
     cell_size = 80
     margin_left = 140
     margin_top = 120
@@ -155,7 +167,10 @@ def draw_heatmap(mean_props, title, subtitle, outfile, vmin, vmax, diverging=Fal
     width = margin_left + GRID_SIZE * cell_size + margin_right
     height = margin_top + GRID_SIZE * cell_size + margin_bottom
 
-    img = bytearray([255, 255, 255] * width * height)
+    svg = [
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}">',
+        f'<rect width="{width}" height="{height}" fill="white" />',
+    ]
 
     for y in range(GRID_SIZE):
         for x in range(GRID_SIZE):
@@ -163,58 +178,60 @@ def draw_heatmap(mean_props, title, subtitle, outfile, vmin, vmax, diverging=Fal
             color = diverging_scale(value, vmin, vmax) if diverging else color_scale(value, vmin, vmax)
             x0 = margin_left + x * cell_size
             y0 = margin_top + (GRID_SIZE - 1 - y) * cell_size
-            for py in range(y0, y0 + cell_size):
-                for px in range(x0, x0 + cell_size):
-                    idx = (py * width + px) * 3
-                    img[idx:idx+3] = bytes(color)
+            svg.append(
+                f'<rect x="{x0}" y="{y0}" width="{cell_size}" height="{cell_size}" fill="{_svg_color(color)}" />'
+            )
 
-    # Grid lines
-    line_color = (200, 200, 200)
+    line_color = "#c8c8c8"
     for i in range(GRID_SIZE + 1):
         x = margin_left + i * cell_size
-        for py in range(margin_top, margin_top + GRID_SIZE * cell_size + 1):
-            if 0 <= x < width and 0 <= py < height:
-                idx = (py * width + x) * 3
-                img[idx:idx+3] = bytes(line_color)
         y = margin_top + i * cell_size
-        for px in range(margin_left, margin_left + GRID_SIZE * cell_size + 1):
-            if 0 <= px < width and 0 <= y < height:
-                idx = (y * width + px) * 3
-                img[idx:idx+3] = bytes(line_color)
+        svg.append(f'<line x1="{x}" y1="{margin_top}" x2="{x}" y2="{margin_top + GRID_SIZE * cell_size}" stroke="{line_color}" />')
+        svg.append(f'<line x1="{margin_left}" y1="{y}" x2="{margin_left + GRID_SIZE * cell_size}" y2="{y}" stroke="{line_color}" />')
 
-    # Axis labels
     for x in range(1, GRID_SIZE + 1):
-        label = str(x)
-        label_x = margin_left + (x - 0.5) * cell_size - len(label) * 6
-        label_y = margin_top + GRID_SIZE * cell_size + 20
-        draw_text(img, width, height, int(label_x), int(label_y), label, color=(0, 0, 0), scale=2)
+        label_x = margin_left + (x - 0.5) * cell_size
+        label_y = margin_top + GRID_SIZE * cell_size + 30
+        svg.append(
+            f'<text x="{label_x}" y="{label_y}" text-anchor="middle" font-size="16" font-family="Arial">{x}</text>'
+        )
     for y in range(1, GRID_SIZE + 1):
-        label = str(y)
-        label_x = margin_left - 30
-        label_y = margin_top + (GRID_SIZE - y + 0.5) * cell_size - 7
-        draw_text(img, width, height, int(label_x), int(label_y), label, color=(0, 0, 0), scale=2)
+        label_x = margin_left - 20
+        label_y = margin_top + (GRID_SIZE - y + 0.5) * cell_size + 6
+        svg.append(
+            f'<text x="{label_x}" y="{label_y}" text-anchor="end" font-size="16" font-family="Arial">{y}</text>'
+        )
 
-    draw_text(img, width, height, 20, margin_top - 60, title, color=(0, 0, 0), scale=3)
-    draw_text(img, width, height, 20, margin_top - 30, subtitle, color=(80, 80, 80), scale=2)
-    draw_text(img, width, height, margin_left + 100, height - 60, "Implementability", color=(0, 0, 0), scale=2)
-    draw_text(img, width, height, 20, margin_top + 180, "Impact", color=(0, 0, 0), scale=2)
+    svg.append(
+        f'<text x="20" y="{margin_top - 60}" font-size="22" font-family="Arial">{_svg_text(title)}</text>'
+    )
+    svg.append(
+        f'<text x="20" y="{margin_top - 30}" font-size="16" font-family="Arial" fill="#505050">{_svg_text(subtitle)}</text>'
+    )
+    svg.append(
+        f'<text x="{margin_left + 120}" y="{height - 60}" font-size="16" font-family="Arial">Implementability</text>'
+    )
+    svg.append(
+        f'<text x="20" y="{margin_top + 200}" font-size="16" font-family="Arial">Impact</text>'
+    )
 
-    # Cell annotations
     for y in range(GRID_SIZE):
         for x in range(GRID_SIZE):
             value = mean_props[y][x] * 100
             label = f"{value:.1f}%"
-            text_width = len(label) * 6 * 2
-            text_height = 7 * 2
-            x0 = margin_left + x * cell_size + (cell_size - text_width) / 2
-            y0 = margin_top + (GRID_SIZE - 1 - y) * cell_size + (cell_size - text_height) / 2
-            color = (0, 0, 0) if value < 12 else (255, 255, 255)
-            draw_text(img, width, height, int(x0), int(y0), label, color=color, scale=2)
+            x0 = margin_left + x * cell_size + cell_size / 2
+            y0 = margin_top + (GRID_SIZE - 1 - y) * cell_size + cell_size / 2 + 6
+            color = "#000000" if value < 12 else "#ffffff"
+            svg.append(
+                f'<text x="{x0}" y="{y0}" text-anchor="middle" font-size="14" font-family="Arial" fill="{color}">{label}</text>'
+            )
 
-    save_png(outfile, img, width, height)
+    svg.append("</svg>")
+    with open(outfile, "w", encoding="utf-8") as f:
+        f.write("\n".join(svg))
 
 
-def draw_placements(placements, title, subtitle, outfile):
+def draw_placements_svg(placements, title, subtitle, outfile):
     cell_size = 80
     margin_left = 140
     margin_top = 120
@@ -224,54 +241,59 @@ def draw_placements(placements, title, subtitle, outfile):
     width = margin_left + GRID_SIZE * cell_size + margin_right
     height = margin_top + GRID_SIZE * cell_size + margin_bottom
 
-    img = bytearray([255, 255, 255] * width * height)
+    svg = [
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}">',
+        f'<rect width="{width}" height="{height}" fill="white" />',
+    ]
 
-    # Grid lines
-    line_color = (180, 180, 180)
+    line_color = "#b4b4b4"
     for i in range(GRID_SIZE + 1):
         x = margin_left + i * cell_size
-        for py in range(margin_top, margin_top + GRID_SIZE * cell_size + 1):
-            if 0 <= x < width and 0 <= py < height:
-                idx = (py * width + x) * 3
-                img[idx:idx+3] = bytes(line_color)
         y = margin_top + i * cell_size
-        for px in range(margin_left, margin_left + GRID_SIZE * cell_size + 1):
-            if 0 <= px < width and 0 <= y < height:
-                idx = (y * width + px) * 3
-                img[idx:idx+3] = bytes(line_color)
+        svg.append(f'<line x1="{x}" y1="{margin_top}" x2="{x}" y2="{margin_top + GRID_SIZE * cell_size}" stroke="{line_color}" />')
+        svg.append(f'<line x1="{margin_left}" y1="{y}" x2="{margin_left + GRID_SIZE * cell_size}" y2="{y}" stroke="{line_color}" />')
 
-    # Axis labels
     for x in range(1, GRID_SIZE + 1):
-        label = str(x)
-        label_x = margin_left + (x - 0.5) * cell_size - len(label) * 6
-        label_y = margin_top + GRID_SIZE * cell_size + 20
-        draw_text(img, width, height, int(label_x), int(label_y), label, color=(0, 0, 0), scale=2)
+        label_x = margin_left + (x - 0.5) * cell_size
+        label_y = margin_top + GRID_SIZE * cell_size + 30
+        svg.append(
+            f'<text x="{label_x}" y="{label_y}" text-anchor="middle" font-size="16" font-family="Arial">{x}</text>'
+        )
     for y in range(1, GRID_SIZE + 1):
-        label = str(y)
-        label_x = margin_left - 30
-        label_y = margin_top + (GRID_SIZE - y + 0.5) * cell_size - 7
-        draw_text(img, width, height, int(label_x), int(label_y), label, color=(0, 0, 0), scale=2)
+        label_x = margin_left - 20
+        label_y = margin_top + (GRID_SIZE - y + 0.5) * cell_size + 6
+        svg.append(
+            f'<text x="{label_x}" y="{label_y}" text-anchor="end" font-size="16" font-family="Arial">{y}</text>'
+        )
 
-    draw_text(img, width, height, 20, margin_top - 60, title, color=(0, 0, 0), scale=3)
-    draw_text(img, width, height, 20, margin_top - 30, subtitle, color=(80, 80, 80), scale=2)
-    draw_text(img, width, height, margin_left + 80, height - 60, "Implementability (1 = Hard, 7 = Easy)", color=(0, 0, 0), scale=2)
-    draw_text(img, width, height, 20, margin_top + 180, "Degree of impact (1 = Low, 7 = High)", color=(0, 0, 0), scale=2)
+    svg.append(
+        f'<text x="20" y="{margin_top - 60}" font-size="22" font-family="Arial">{_svg_text(title)}</text>'
+    )
+    svg.append(
+        f'<text x="20" y="{margin_top - 30}" font-size="16" font-family="Arial" fill="#505050">{_svg_text(subtitle)}</text>'
+    )
+    svg.append(
+        f'<text x="{margin_left + 80}" y="{height - 60}" font-size="16" font-family="Arial">Implementability (1 = Hard, 7 = Easy)</text>'
+    )
+    svg.append(
+        f'<text x="20" y="{margin_top + 200}" font-size="16" font-family="Arial">Degree of impact (1 = Low, 7 = High)</text>'
+    )
 
-    # Plot placements as small filled squares
-    point_color = (40, 40, 40)
-    point_size = 6
+    point_color = "#282828"
+    point_size = 12
     for placement in placements:
         x = placement["x"]
         y = placement["y"]
         center_x = margin_left + (x - 0.5) * cell_size
         center_y = margin_top + (GRID_SIZE - y + 0.5) * cell_size
-        for py in range(int(center_y - point_size), int(center_y + point_size + 1)):
-            for px in range(int(center_x - point_size), int(center_x + point_size + 1)):
-                if 0 <= px < width and 0 <= py < height:
-                    idx = (py * width + px) * 3
-                    img[idx:idx+3] = bytes(point_color)
+        svg.append(
+            f'<rect x="{center_x - point_size / 2}" y="{center_y - point_size / 2}" '
+            f'width="{point_size}" height="{point_size}" fill="{point_color}" />'
+        )
 
-    save_png(outfile, img, width, height)
+    svg.append("</svg>")
+    with open(outfile, "w", encoding="utf-8") as f:
+        f.write("\n".join(svg))
 
 
 def save_png(path, img, width, height):
@@ -312,20 +334,20 @@ def main():
     decisive_subtitle = f"n={len(decisive['participants'])} participants, {decisive['total_placements']} placements"
     moderate_subtitle = f"n={len(moderate['participants'])} participants, {moderate['total_placements']} placements"
 
-    draw_heatmap(
+    draw_heatmap_svg(
         decisive["mean_props"],
         "Decisive mapping style",
         decisive_subtitle,
-        os.path.join(OUTPUT_DIR, "heatmap_decisive.png"),
+        os.path.join(OUTPUT_DIR, "heatmap_decisive.svg"),
         vmin,
         vmax,
     )
 
-    draw_heatmap(
+    draw_heatmap_svg(
         moderate["mean_props"],
         "Moderate mapping style",
         moderate_subtitle,
-        os.path.join(OUTPUT_DIR, "heatmap_moderate.png"),
+        os.path.join(OUTPUT_DIR, "heatmap_moderate.svg"),
         vmin,
         vmax,
     )
@@ -336,28 +358,28 @@ def main():
     diff_max = max(diff_values) if diff_values else 0.1
     # Symmetric bounds around zero
     bound = max(abs(diff_min), abs(diff_max))
-    draw_heatmap(
+    draw_heatmap_svg(
         diff,
         "Decisive minus Moderate",
         "Difference in mean proportion",
-        os.path.join(OUTPUT_DIR, "heatmap_diff.png"),
+        os.path.join(OUTPUT_DIR, "heatmap_diff.svg"),
         -bound,
         bound,
         diverging=True,
     )
 
-    draw_placements(
+    draw_placements_svg(
         decisive_placements,
         "Decisive mapper placements",
         f"{len(decisive_placements)} placements",
-        os.path.join(OUTPUT_DIR, "placements_decisive.png"),
+        os.path.join(OUTPUT_DIR, "placements_decisive.svg"),
     )
 
-    draw_placements(
+    draw_placements_svg(
         moderate_placements,
         "Moderate mapper placements",
         f"{len(moderate_placements)} placements",
-        os.path.join(OUTPUT_DIR, "placements_moderate.png"),
+        os.path.join(OUTPUT_DIR, "placements_moderate.svg"),
     )
 
 
