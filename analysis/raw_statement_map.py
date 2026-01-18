@@ -3,11 +3,10 @@
 from __future__ import annotations
 
 import csv
+from collections import defaultdict
 from pathlib import Path
-from statistics import mean
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
-RAW_STATEMENT_PATH = REPO_ROOT / "StatementRaw.csv"
 PLACEMENT_PATH = REPO_ROOT / "Placement.csv"
 OUTPUT_PATH = REPO_ROOT / "outputs" / "raw_statement_map.svg"
 
@@ -26,48 +25,20 @@ GRID_RANGE = GRID_MAX - GRID_MIN
 
 AXIS_STROKE = 8
 GRID_STROKE = 2
-LABEL_FONT_SIZE = 12
-POINT_RADIUS = 4
+POINT_RADIUS = 8
+JITTER_STEP = 0.07
+JITTER_MAX = 0.18
 
 
-def load_raw_statements() -> dict[str, str]:
-    statements: dict[str, str] = {}
-    with RAW_STATEMENT_PATH.open(newline="", encoding="utf-8") as handle:
-        reader = csv.DictReader(handle)
-        for row in reader:
-            statement_id = row.get("id")
-            text = row.get("text")
-            if statement_id and text:
-                statements[statement_id] = text.strip()
-    return statements
-
-
-def load_placements() -> dict[str, list[tuple[float, float]]]:
-    placements: dict[str, list[tuple[float, float]]] = {}
+def load_placements() -> list[dict[str, str]]:
+    placements: list[dict[str, str]] = []
     with PLACEMENT_PATH.open(newline="", encoding="utf-8") as handle:
         reader = csv.DictReader(handle)
         for row in reader:
-            statement_id = row.get("canonical_id")
-            if not statement_id:
+            if not row.get("x") or not row.get("y"):
                 continue
-            try:
-                x_value = float(row.get("x", ""))
-                y_value = float(row.get("y", ""))
-            except ValueError:
-                continue
-            placements.setdefault(statement_id, []).append((x_value, y_value))
+            placements.append(row)
     return placements
-
-
-def compute_centroids(placements: dict[str, list[tuple[float, float]]]) -> dict[str, tuple[float, float]]:
-    centroids: dict[str, tuple[float, float]] = {}
-    for statement_id, coords in placements.items():
-        if not coords:
-            continue
-        xs = [point[0] for point in coords]
-        ys = [point[1] for point in coords]
-        centroids[statement_id] = (mean(xs), mean(ys))
-    return centroids
 
 
 def scale_x(value: float) -> float:
@@ -150,71 +121,71 @@ def svg_axes() -> str:
     return "\n".join(axis) + "\n"
 
 
-def wrap_text(text: str, max_len: int = 32) -> list[str]:
-    words = text.split()
-    lines: list[str] = []
-    current: list[str] = []
-    length = 0
-    for word in words:
-        extra = len(word) + (1 if current else 0)
-        if length + extra > max_len and current:
-            lines.append(" ".join(current))
-            current = [word]
-            length = len(word)
-        else:
-            current.append(word)
-            length += extra
-    if current:
-        lines.append(" ".join(current))
-    return lines
+def build_offsets(count: int) -> list[tuple[float, float]]:
+    offsets: list[tuple[float, float]] = [(0.0, 0.0)]
+    ring = 1
+    while len(offsets) < count:
+        step = ring * JITTER_STEP
+        candidates = [
+            (step, 0.0),
+            (-step, 0.0),
+            (0.0, step),
+            (0.0, -step),
+            (step, step),
+            (step, -step),
+            (-step, step),
+            (-step, -step),
+        ]
+        offsets.extend(candidates)
+        ring += 1
+    return offsets[:count]
 
 
-def svg_points(raw_statements: dict[str, str], centroids: dict[str, tuple[float, float]]) -> str:
+def clamp(value: float, low: float, high: float) -> float:
+    return max(low, min(high, value))
+
+
+def svg_points(rows: list[dict[str, str]]) -> str:
     elements = []
-    for statement_id, text in sorted(raw_statements.items()):
-        centroid = centroids.get(statement_id)
-        if not centroid:
+    grouped: dict[tuple[int, int], list[dict[str, str]]] = defaultdict(list)
+    for row in rows:
+        try:
+            x_int = int(round(float(row["x"])))
+            y_int = int(round(float(row["y"])))
+        except (KeyError, TypeError, ValueError):
             continue
-        x = scale_x(centroid[0])
-        y = scale_y(centroid[1])
-        elements.append(
-            f"<circle cx='{x:.2f}' cy='{y:.2f}' r='{POINT_RADIUS}' "
-            "fill='#1f77b4' stroke='black' stroke-width='1' />"
-        )
-        lines = wrap_text(text)
-        label_x = min(x + 8, PLOT_RIGHT - 10)
-        label_y = max(y - 8, PLOT_TOP + LABEL_FONT_SIZE)
-        elements.append(
-            f"<text x='{label_x:.2f}' y='{label_y:.2f}' font-size='{LABEL_FONT_SIZE}' "
-            "font-family='Arial' fill='black'>"
-        )
-        for idx, line in enumerate(lines):
-            dy = 0 if idx == 0 else LABEL_FONT_SIZE + 2
+        grouped[(x_int, y_int)].append(row)
+    for (x_int, y_int), group in sorted(grouped.items()):
+        ordered = sorted(group, key=lambda r: (r.get("canonical_id", ""), r.get("id", "")))
+        offsets = build_offsets(len(ordered))
+        for row, (dx, dy) in zip(ordered, offsets):
+            dx = clamp(dx, -JITTER_MAX, JITTER_MAX)
+            dy = clamp(dy, -JITTER_MAX, JITTER_MAX)
+            x = scale_x(x_int + dx)
+            y = scale_y(y_int + dy)
             elements.append(
-                f"<tspan x='{label_x:.2f}' dy='{dy}'>{line}</tspan>"
+                f"<circle cx='{x:.2f}' cy='{y:.2f}' r='{POINT_RADIUS}' "
+                "fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />"
             )
-        elements.append("</text>")
     return "\n".join(elements) + "\n"
 
 
-def build_svg(raw_statements: dict[str, str], centroids: dict[str, tuple[float, float]]) -> str:
+def build_svg(rows: list[dict[str, str]]) -> str:
     content = [
         svg_header(),
         svg_defs(),
         "<rect width='100%' height='100%' fill='white' />\n",
         svg_grid(),
         svg_axes(),
-        svg_points(raw_statements, centroids),
+        svg_points(rows),
         "</svg>\n",
     ]
     return "".join(content)
 
 
 def main() -> None:
-    raw_statements = load_raw_statements()
     placements = load_placements()
-    centroids = compute_centroids(placements)
-    svg = build_svg(raw_statements, centroids)
+    svg = build_svg(placements)
     OUTPUT_PATH.write_text(svg, encoding="utf-8")
     print(f"Wrote {OUTPUT_PATH}")
 

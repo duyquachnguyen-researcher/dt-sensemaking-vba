@@ -37,434 +37,355 @@
 <line x1='130' y1='940' x2='130' y2='70' stroke='black' stroke-width='8' marker-end='url(#arrow)' />
 <text x='540.00' y='1050' font-size='32' text-anchor='middle' font-family='Arial'>Implementability (1 = Hard, 7 = Easy)</text>
 <text x='40' y='530.00' font-size='32' text-anchor='middle' font-family='Arial' transform='rotate(-90 40 530.00)'>Degree of impact (1 = Low, 7 = High)</text>
-<circle cx='813.33' cy='256.67' r='4' fill='#1f77b4' stroke='black' stroke-width='1' />
-<text x='821.33' y='248.67' font-size='12' font-family='Arial' fill='black'>
-<tspan x='821.33' dy='0'>The different departments must</tspan>
-<tspan x='821.33' dy='14'>be interconnected, share data</tspan>
-<tspan x='821.33' dy='14'>with each other.</tspan>
-</text>
-<circle cx='950.00' cy='120.00' r='4' fill='#1f77b4' stroke='black' stroke-width='1' />
-<text x='940.00' y='132.00' font-size='12' font-family='Arial' fill='black'>
-<tspan x='940.00' dy='0'>The software that is currently</tspan>
-<tspan x='940.00' dy='14'>in use cannot be replaced then</tspan>
-<tspan x='940.00' dy='14'>must be migrated.</tspan>
-</text>
-<circle cx='676.67' cy='393.33' r='4' fill='#1f77b4' stroke='black' stroke-width='1' />
-<text x='684.67' y='385.33' font-size='12' font-family='Arial' fill='black'>
-<tspan x='684.67' dy='0'>Our team has expertise in data,</tspan>
-<tspan x='684.67' dy='14'>AI, cloud computing.</tspan>
-</text>
-<circle cx='813.33' cy='120.00' r='4' fill='#1f77b4' stroke='black' stroke-width='1' />
-<text x='821.33' y='132.00' font-size='12' font-family='Arial' fill='black'>
-<tspan x='821.33' dy='0'>Data used for digital</tspan>
-<tspan x='821.33' dy='14'>transformation must be</tspan>
-<tspan x='821.33' dy='14'>comprehensively collected to</tspan>
-<tspan x='821.33' dy='14'>avoid any inaccuracies.</tspan>
-</text>
-<circle cx='950.00' cy='120.00' r='4' fill='#1f77b4' stroke='black' stroke-width='1' />
-<text x='940.00' y='132.00' font-size='12' font-family='Arial' fill='black'>
-<tspan x='940.00' dy='0'>Commitment from leadership</tspan>
-</text>
-<circle cx='813.33' cy='120.00' r='4' fill='#1f77b4' stroke='black' stroke-width='1' />
-<text x='821.33' y='132.00' font-size='12' font-family='Arial' fill='black'>
-<tspan x='821.33' dy='0'>Statement 3</tspan>
-</text>
-<circle cx='403.33' cy='393.33' r='4' fill='#1f77b4' stroke='black' stroke-width='1' />
-<text x='411.33' y='385.33' font-size='12' font-family='Arial' fill='black'>
-<tspan x='411.33' dy='0'>Statement 4</tspan>
-</text>
-<circle cx='813.33' cy='120.00' r='4' fill='#1f77b4' stroke='black' stroke-width='1' />
-<text x='821.33' y='132.00' font-size='12' font-family='Arial' fill='black'>
-<tspan x='821.33' dy='0'>Clarify the digital</tspan>
-<tspan x='821.33' dy='14'>transformation goals of Top</tspan>
-<tspan x='821.33' dy='14'>managers to department members,</tspan>
-<tspan x='821.33' dy='14'>focusing on goals related to</tspan>
-<tspan x='821.33' dy='14'>Production.</tspan>
-</text>
-<circle cx='950.00' cy='256.67' r='4' fill='#1f77b4' stroke='black' stroke-width='1' />
-<text x='940.00' y='248.67' font-size='12' font-family='Arial' fill='black'>
-<tspan x='940.00' dy='0'>Set specific, measurable</tspan>
-<tspan x='940.00' dy='14'>requirements for each milestone</tspan>
-<tspan x='940.00' dy='14'>in the digital transformation</tspan>
-<tspan x='940.00' dy='14'>roadmap, aligning them with the</tspan>
-<tspan x='940.00' dy='14'>overall goal.</tspan>
-</text>
-<circle cx='813.33' cy='530.00' r='4' fill='#1f77b4' stroke='black' stroke-width='1' />
-<text x='821.33' y='522.00' font-size='12' font-family='Arial' fill='black'>
-<tspan x='821.33' dy='0'>Establish a commitment to</tspan>
-<tspan x='821.33' dy='14'>achieving the common goals of</tspan>
-<tspan x='821.33' dy='14'>all departments.</tspan>
-</text>
-<circle cx='540.00' cy='256.67' r='4' fill='#1f77b4' stroke='black' stroke-width='1' />
-<text x='548.00' y='248.67' font-size='12' font-family='Arial' fill='black'>
-<tspan x='548.00' dy='0'>Assigning the right personnel to</tspan>
-<tspan x='548.00' dy='14'>participate in the digital</tspan>
-<tspan x='548.00' dy='14'>transformation project:</tspan>
-<tspan x='548.00' dy='14'>considering their capabilities,</tspan>
-<tspan x='548.00' dy='14'>responsibilities, passion, time</tspan>
-<tspan x='548.00' dy='14'>availability.</tspan>
-</text>
-<circle cx='676.67' cy='256.67' r='4' fill='#1f77b4' stroke='black' stroke-width='1' />
-<text x='684.67' y='248.67' font-size='12' font-family='Arial' fill='black'>
-<tspan x='684.67' dy='0'>Analyze top manager objectives</tspan>
-<tspan x='684.67' dy='14'>into specific departmental</tspan>
-<tspan x='684.67' dy='14'>requirements, focusing on</tspan>
-<tspan x='684.67' dy='14'>meeting industry specifics,</tspan>
-<tspan x='684.67' dy='14'>market demands.</tspan>
-</text>
-<circle cx='540.00' cy='256.67' r='4' fill='#1f77b4' stroke='black' stroke-width='1' />
-<text x='548.00' y='248.67' font-size='12' font-family='Arial' fill='black'>
-<tspan x='548.00' dy='0'>To combines improvement ideas</tspan>
-<tspan x='548.00' dy='14'>from department members based on</tspan>
-<tspan x='548.00' dy='14'>practical experience to achieve</tspan>
-<tspan x='548.00' dy='14'>department goals.</tspan>
-</text>
-<circle cx='676.67' cy='530.00' r='4' fill='#1f77b4' stroke='black' stroke-width='1' />
-<text x='684.67' y='522.00' font-size='12' font-family='Arial' fill='black'>
-<tspan x='684.67' dy='0'>Monitor, update to members on</tspan>
-<tspan x='684.67' dy='14'>the progress of the digitization</tspan>
-<tspan x='684.67' dy='14'>process throughout.</tspan>
-</text>
-<circle cx='813.33' cy='666.67' r='4' fill='#1f77b4' stroke='black' stroke-width='1' />
-<text x='821.33' y='658.67' font-size='12' font-family='Arial' fill='black'>
-<tspan x='821.33' dy='0'>Communicate the company's</tspan>
-<tspan x='821.33' dy='14'>digital transformation roadmap</tspan>
-<tspan x='821.33' dy='14'>to employees, partners.</tspan>
-</text>
-<circle cx='813.33' cy='256.67' r='4' fill='#1f77b4' stroke='black' stroke-width='1' />
-<text x='821.33' y='248.67' font-size='12' font-family='Arial' fill='black'>
-<tspan x='821.33' dy='0'>Regularly update the</tspan>
-<tspan x='821.33' dy='14'>requirements to suit the global</tspan>
-<tspan x='821.33' dy='14'>market context.</tspan>
-</text>
-<circle cx='950.00' cy='666.67' r='4' fill='#1f77b4' stroke='black' stroke-width='1' />
-<text x='940.00' y='658.67' font-size='12' font-family='Arial' fill='black'>
-<tspan x='940.00' dy='0'>Communicate the company's</tspan>
-<tspan x='940.00' dy='14'>digital transformation goals,</tspan>
-<tspan x='940.00' dy='14'>roadmap, plans to everyone.</tspan>
-</text>
-<circle cx='813.33' cy='256.67' r='4' fill='#1f77b4' stroke='black' stroke-width='1' />
-<text x='821.33' y='248.67' font-size='12' font-family='Arial' fill='black'>
-<tspan x='821.33' dy='0'>Focus on preparing appropriate</tspan>
-<tspan x='821.33' dy='14'>resources for substantive</tspan>
-<tspan x='821.33' dy='14'>changes in company operations</tspan>
-<tspan x='821.33' dy='14'>after digitalization.</tspan>
-</text>
-<circle cx='540.00' cy='393.33' r='4' fill='#1f77b4' stroke='black' stroke-width='1' />
-<text x='548.00' y='385.33' font-size='12' font-family='Arial' fill='black'>
-<tspan x='548.00' dy='0'>Create the best possible</tspan>
-<tspan x='548.00' dy='14'>environment for digitalization</tspan>
-<tspan x='548.00' dy='14'>implementation: training,</tspan>
-<tspan x='548.00' dy='14'>documentation, procedures,</tspan>
-<tspan x='548.00' dy='14'>regulations, etc.</tspan>
-</text>
-<circle cx='676.67' cy='256.67' r='4' fill='#1f77b4' stroke='black' stroke-width='1' />
-<text x='684.67' y='248.67' font-size='12' font-family='Arial' fill='black'>
-<tspan x='684.67' dy='0'>Closely manage changes in</tspan>
-<tspan x='684.67' dy='14'>personnel, processes,</tspan>
-<tspan x='684.67' dy='14'>organization.</tspan>
-</text>
-<circle cx='676.67' cy='120.00' r='4' fill='#1f77b4' stroke='black' stroke-width='1' />
-<text x='684.67' y='132.00' font-size='12' font-family='Arial' fill='black'>
-<tspan x='684.67' dy='0'>Break down strategic goals into</tspan>
-<tspan x='684.67' dy='14'>departmental goals</tspan>
-</text>
-<circle cx='813.33' cy='256.67' r='4' fill='#1f77b4' stroke='black' stroke-width='1' />
-<text x='821.33' y='248.67' font-size='12' font-family='Arial' fill='black'>
-<tspan x='821.33' dy='0'>Set specific, measurable</tspan>
-<tspan x='821.33' dy='14'>requirements for digitalization</tspan>
-<tspan x='821.33' dy='14'>projects based on departmental</tspan>
-<tspan x='821.33' dy='14'>goals</tspan>
-</text>
-<circle cx='813.33' cy='530.00' r='4' fill='#1f77b4' stroke='black' stroke-width='1' />
-<text x='821.33' y='522.00' font-size='12' font-family='Arial' fill='black'>
-<tspan x='821.33' dy='0'>Creat fit/gap tables, regularly</tspan>
-<tspan x='821.33' dy='14'>update processing status to</tspan>
-<tspan x='821.33' dy='14'>department members</tspan>
-</text>
-<circle cx='676.67' cy='393.33' r='4' fill='#1f77b4' stroke='black' stroke-width='1' />
-<text x='684.67' y='385.33' font-size='12' font-family='Arial' fill='black'>
-<tspan x='684.67' dy='0'>Commit to provide appropriate</tspan>
-<tspan x='684.67' dy='14'>resources for digitalization.</tspan>
-</text>
-<circle cx='403.33' cy='120.00' r='4' fill='#1f77b4' stroke='black' stroke-width='1' />
-<text x='411.33' y='132.00' font-size='12' font-family='Arial' fill='black'>
-<tspan x='411.33' dy='0'>Commit to being ready to adapt</tspan>
-<tspan x='411.33' dy='14'>to effectively implement tobe</tspan>
-<tspan x='411.33' dy='14'>processes.</tspan>
-</text>
-<circle cx='813.33' cy='256.67' r='4' fill='#1f77b4' stroke='black' stroke-width='1' />
-<text x='821.33' y='248.67' font-size='12' font-family='Arial' fill='black'>
-<tspan x='821.33' dy='0'>Self Learning Process</tspan>
-</text>
-<circle cx='813.33' cy='256.67' r='4' fill='#1f77b4' stroke='black' stroke-width='1' />
-<text x='821.33' y='248.67' font-size='12' font-family='Arial' fill='black'>
-<tspan x='821.33' dy='0'>Create Working System</tspan>
-</text>
-<circle cx='813.33' cy='256.67' r='4' fill='#1f77b4' stroke='black' stroke-width='1' />
-<text x='821.33' y='248.67' font-size='12' font-family='Arial' fill='black'>
-<tspan x='821.33' dy='0'>Improve Communication Through</tspan>
-<tspan x='821.33' dy='14'>other department</tspan>
-</text>
-<circle cx='813.33' cy='256.67' r='4' fill='#1f77b4' stroke='black' stroke-width='1' />
-<text x='821.33' y='248.67' font-size='12' font-family='Arial' fill='black'>
-<tspan x='821.33' dy='0'>Team Sharing Session</tspan>
-</text>
-<circle cx='813.33' cy='256.67' r='4' fill='#1f77b4' stroke='black' stroke-width='1' />
-<text x='821.33' y='248.67' font-size='12' font-family='Arial' fill='black'>
-<tspan x='821.33' dy='0'>Invest heavily in security</tspan>
-<tspan x='821.33' dy='14'>systems</tspan>
-</text>
-<circle cx='950.00' cy='120.00' r='4' fill='#1f77b4' stroke='black' stroke-width='1' />
-<text x='940.00' y='132.00' font-size='12' font-family='Arial' fill='black'>
-<tspan x='940.00' dy='0'>Let employees (and middle</tspan>
-<tspan x='940.00' dy='14'>managers) know that new</tspan>
-<tspan x='940.00' dy='14'>technology wil not cost them</tspan>
-<tspan x='940.00' dy='14'>their jobs.</tspan>
-</text>
-<circle cx='950.00' cy='256.67' r='4' fill='#1f77b4' stroke='black' stroke-width='1' />
-<text x='940.00' y='248.67' font-size='12' font-family='Arial' fill='black'>
-<tspan x='940.00' dy='0'>Invest in infrastructure,</tspan>
-<tspan x='940.00' dy='14'>software licenses, personnel</tspan>
-<tspan x='940.00' dy='14'>training.</tspan>
-</text>
-<circle cx='540.00' cy='393.33' r='4' fill='#1f77b4' stroke='black' stroke-width='1' />
-<text x='548.00' y='385.33' font-size='12' font-family='Arial' fill='black'>
-<tspan x='548.00' dy='0'>Two KPIs will be established</tspan>
-<tspan x='548.00' dy='14'>after implementing the</tspan>
-<tspan x='548.00' dy='14'>technology; which one will be</tspan>
-<tspan x='548.00' dy='14'>used for evaluation?</tspan>
-</text>
-<circle cx='130.00' cy='120.00' r='4' fill='#1f77b4' stroke='black' stroke-width='1' />
-<text x='138.00' y='132.00' font-size='12' font-family='Arial' fill='black'>
-<tspan x='138.00' dy='0'>Try to retain talented people.</tspan>
-</text>
-<circle cx='403.33' cy='530.00' r='4' fill='#1f77b4' stroke='black' stroke-width='1' />
-<text x='411.33' y='522.00' font-size='12' font-family='Arial' fill='black'>
-<tspan x='411.33' dy='0'>Clarify how it helps employees</tspan>
-<tspan x='411.33' dy='14'>in their work.</tspan>
-</text>
-<circle cx='676.67' cy='393.33' r='4' fill='#1f77b4' stroke='black' stroke-width='1' />
-<text x='684.67' y='385.33' font-size='12' font-family='Arial' fill='black'>
-<tspan x='684.67' dy='0'>There is a reward system for</tspan>
-<tspan x='684.67' dy='14'>individuals who are poineers in</tspan>
-<tspan x='684.67' dy='14'>successfully applying new</tspan>
-<tspan x='684.67' dy='14'>technologies.</tspan>
-</text>
-<circle cx='950.00' cy='393.33' r='4' fill='#1f77b4' stroke='black' stroke-width='1' />
-<text x='940.00' y='385.33' font-size='12' font-family='Arial' fill='black'>
-<tspan x='940.00' dy='0'>Communicate to each member to</tspan>
-<tspan x='940.00' dy='14'>understand the importance of</tspan>
-<tspan x='940.00' dy='14'>compliance, accuracy, timeliness</tspan>
-<tspan x='940.00' dy='14'>when implement digitalization.</tspan>
-</text>
-<circle cx='540.00' cy='530.00' r='4' fill='#1f77b4' stroke='black' stroke-width='1' />
-<text x='548.00' y='522.00' font-size='12' font-family='Arial' fill='black'>
-<tspan x='548.00' dy='0'>Allocate budget in stages to</tspan>
-<tspan x='548.00' dy='14'>achieve each milestone.</tspan>
-</text>
-<circle cx='813.33' cy='393.33' r='4' fill='#1f77b4' stroke='black' stroke-width='1' />
-<text x='821.33' y='385.33' font-size='12' font-family='Arial' fill='black'>
-<tspan x='821.33' dy='0'>Select technology solution that</tspan>
-<tspan x='821.33' dy='14'>matches capacibilities,</tspan>
-<tspan x='821.33' dy='14'>practical requirements.</tspan>
-</text>
-<circle cx='130.00' cy='256.67' r='4' fill='#1f77b4' stroke='black' stroke-width='1' />
-<text x='138.00' y='248.67' font-size='12' font-family='Arial' fill='black'>
-<tspan x='138.00' dy='0'>Select the best personnel from</tspan>
-<tspan x='138.00' dy='14'>various departments to focus on</tspan>
-<tspan x='138.00' dy='14'>the digitalization project.</tspan>
-</text>
-<circle cx='813.33' cy='393.33' r='4' fill='#1f77b4' stroke='black' stroke-width='1' />
-<text x='821.33' y='385.33' font-size='12' font-family='Arial' fill='black'>
-<tspan x='821.33' dy='0'>Provide thorough training,</tspan>
-<tspan x='821.33' dy='14'>timely suport throughout the</tspan>
-<tspan x='821.33' dy='14'>initial phrase of digitalization</tspan>
-<tspan x='821.33' dy='14'>implement,</tspan>
-</text>
-<circle cx='266.67' cy='256.67' r='4' fill='#1f77b4' stroke='black' stroke-width='1' />
-<text x='274.67' y='248.67' font-size='12' font-family='Arial' fill='black'>
-<tspan x='274.67' dy='0'>Request reports extracted</tspan>
-<tspan x='274.67' dy='14'>directly from the system instead</tspan>
-<tspan x='274.67' dy='14'>of viewing Excel files, printed</tspan>
-<tspan x='274.67' dy='14'>documents.</tspan>
-</text>
-<circle cx='540.00' cy='393.33' r='4' fill='#1f77b4' stroke='black' stroke-width='1' />
-<text x='548.00' y='385.33' font-size='12' font-family='Arial' fill='black'>
-<tspan x='548.00' dy='0'>Activate a mechanism to check</tspan>
-<tspan x='548.00' dy='14'>compliance with procedures,</tspan>
-<tspan x='548.00' dy='14'>processes, the accuracy of data.</tspan>
-</text>
-<circle cx='676.67' cy='120.00' r='4' fill='#1f77b4' stroke='black' stroke-width='1' />
-<text x='684.67' y='132.00' font-size='12' font-family='Arial' fill='black'>
-<tspan x='684.67' dy='0'>Develop KPIs for departments</tspan>
-<tspan x='684.67' dy='14'>based on the overall</tspan>
-<tspan x='684.67' dy='14'>digitalization goals.</tspan>
-</text>
-<circle cx='950.00' cy='393.33' r='4' fill='#1f77b4' stroke='black' stroke-width='1' />
-<text x='940.00' y='385.33' font-size='12' font-family='Arial' fill='black'>
-<tspan x='940.00' dy='0'>Regularly update top management</tspan>
-<tspan x='940.00' dy='14'>on KPIs, overall goals progress.</tspan>
-</text>
-<circle cx='676.67' cy='256.67' r='4' fill='#1f77b4' stroke='black' stroke-width='1' />
-<text x='684.67' y='248.67' font-size='12' font-family='Arial' fill='black'>
-<tspan x='684.67' dy='0'>Communicate to ensure</tspan>
-<tspan x='684.67' dy='14'>understanding of the importance</tspan>
-<tspan x='684.67' dy='14'>of collaboration from all</tspan>
-<tspan x='684.67' dy='14'>departments to achieve common</tspan>
-<tspan x='684.67' dy='14'>goals.</tspan>
-</text>
-<circle cx='813.33' cy='256.67' r='4' fill='#1f77b4' stroke='black' stroke-width='1' />
-<text x='821.33' y='248.67' font-size='12' font-family='Arial' fill='black'>
-<tspan x='821.33' dy='0'>Implement a policy of rewarding,</tspan>
-<tspan x='821.33' dy='14'>promoting active members at each</tspan>
-<tspan x='821.33' dy='14'>milestone.</tspan>
-</text>
-<circle cx='676.67' cy='256.67' r='4' fill='#1f77b4' stroke='black' stroke-width='1' />
-<text x='684.67' y='248.67' font-size='12' font-family='Arial' fill='black'>
-<tspan x='684.67' dy='0'>Commitment to fully implement</tspan>
-<tspan x='684.67' dy='14'>the results of the digital</tspan>
-<tspan x='684.67' dy='14'>transformation process,</tspan>
-</text>
-<circle cx='813.33' cy='256.67' r='4' fill='#1f77b4' stroke='black' stroke-width='1' />
-<text x='821.33' y='248.67' font-size='12' font-family='Arial' fill='black'>
-<tspan x='821.33' dy='0'>Thorough training, timely</tspan>
-<tspan x='821.33' dy='14'>support throughout the</tspan>
-<tspan x='821.33' dy='14'>digitalization process.</tspan>
-</text>
-<circle cx='813.33' cy='120.00' r='4' fill='#1f77b4' stroke='black' stroke-width='1' />
-<text x='821.33' y='132.00' font-size='12' font-family='Arial' fill='black'>
-<tspan x='821.33' dy='0'>Clarify strategic objectives,</tspan>
-<tspan x='821.33' dy='14'>phase objectives. These</tspan>
-<tspan x='821.33' dy='14'>objectives must be agreed upon</tspan>
-<tspan x='821.33' dy='14'>by all departments, approved by</tspan>
-<tspan x='821.33' dy='14'>leadership.</tspan>
-</text>
-<circle cx='813.33' cy='393.33' r='4' fill='#1f77b4' stroke='black' stroke-width='1' />
-<text x='821.33' y='385.33' font-size='12' font-family='Arial' fill='black'>
-<tspan x='821.33' dy='0'>The project team monitors</tspan>
-<tspan x='821.33' dy='14'>progress, updates changes to</tspan>
-<tspan x='821.33' dy='14'>objectives. The information must</tspan>
-<tspan x='821.33' dy='14'>be updated to all team memebers.</tspan>
-</text>
-<circle cx='813.33' cy='393.33' r='4' fill='#1f77b4' stroke='black' stroke-width='1' />
-<text x='821.33' y='385.33' font-size='12' font-family='Arial' fill='black'>
-<tspan x='821.33' dy='0'>Communicate the advantage of</tspan>
-<tspan x='821.33' dy='14'>digital transformation, the</tspan>
-<tspan x='821.33' dy='14'>significant changes It will</tspan>
-<tspan x='821.33' dy='14'>bring, so that employees are</tspan>
-<tspan x='821.33' dy='14'>actively ready to embrace it.</tspan>
-</text>
-<circle cx='813.33' cy='393.33' r='4' fill='#1f77b4' stroke='black' stroke-width='1' />
-<text x='821.33' y='385.33' font-size='12' font-family='Arial' fill='black'>
-<tspan x='821.33' dy='0'>Provide the best environment for</tspan>
-<tspan x='821.33' dy='14'>digital transformation</tspan>
-<tspan x='821.33' dy='14'>operations: training, system,</tspan>
-<tspan x='821.33' dy='14'>data, infrastructure, ect...</tspan>
-</text>
-<circle cx='813.33' cy='530.00' r='4' fill='#1f77b4' stroke='black' stroke-width='1' />
-<text x='821.33' y='522.00' font-size='12' font-family='Arial' fill='black'>
-<tspan x='821.33' dy='0'>Communicate to employees that</tspan>
-<tspan x='821.33' dy='14'>digital transformation brings</tspan>
-<tspan x='821.33' dy='14'>about positive, far reaching</tspan>
-<tspan x='821.33' dy='14'>changes, from work progresses to</tspan>
-<tspan x='821.33' dy='14'>daily problem-solving.</tspan>
-</text>
-<circle cx='676.67' cy='256.67' r='4' fill='#1f77b4' stroke='black' stroke-width='1' />
-<text x='684.67' y='248.67' font-size='12' font-family='Arial' fill='black'>
-<tspan x='684.67' dy='0'>Communicate to employees the</tspan>
-<tspan x='684.67' dy='14'>importance of process adherence,</tspan>
-<tspan x='684.67' dy='14'>data accuracy when implementing</tspan>
-<tspan x='684.67' dy='14'>digitalization.</tspan>
-</text>
-<circle cx='813.33' cy='393.33' r='4' fill='#1f77b4' stroke='black' stroke-width='1' />
-<text x='821.33' y='385.33' font-size='12' font-family='Arial' fill='black'>
-<tspan x='821.33' dy='0'>Provide regular training to</tspan>
-<tspan x='821.33' dy='14'>refresh knowledge related to</tspan>
-<tspan x='821.33' dy='14'>digital transformation.</tspan>
-</text>
-<circle cx='813.33' cy='256.67' r='4' fill='#1f77b4' stroke='black' stroke-width='1' />
-<text x='821.33' y='248.67' font-size='12' font-family='Arial' fill='black'>
-<tspan x='821.33' dy='0'>Conduct regular compliance</tspan>
-<tspan x='821.33' dy='14'>checks.</tspan>
-</text>
-<circle cx='676.67' cy='256.67' r='4' fill='#1f77b4' stroke='black' stroke-width='1' />
-<text x='684.67' y='248.67' font-size='12' font-family='Arial' fill='black'>
-<tspan x='684.67' dy='0'>Conduct periodic performance</tspan>
-<tspan x='684.67' dy='14'>reviews, reward/penalty</tspan>
-<tspan x='684.67' dy='14'>programs.</tspan>
-</text>
-<circle cx='813.33' cy='120.00' r='4' fill='#1f77b4' stroke='black' stroke-width='1' />
-<text x='821.33' y='132.00' font-size='12' font-family='Arial' fill='black'>
-<tspan x='821.33' dy='0'>Develop a roadmap for achieving</tspan>
-<tspan x='821.33' dy='14'>strategic goals, defining</tspan>
-<tspan x='821.33' dy='14'>specific targets for each</tspan>
-<tspan x='821.33' dy='14'>milestone in the roadmap.</tspan>
-</text>
-<circle cx='813.33' cy='256.67' r='4' fill='#1f77b4' stroke='black' stroke-width='1' />
-<text x='821.33' y='248.67' font-size='12' font-family='Arial' fill='black'>
-<tspan x='821.33' dy='0'>Regularly review, update</tspan>
-<tspan x='821.33' dy='14'>strategic goals to align with</tspan>
-<tspan x='821.33' dy='14'>the company's actual needs.</tspan>
-</text>
-<circle cx='676.67' cy='256.67' r='4' fill='#1f77b4' stroke='black' stroke-width='1' />
-<text x='684.67' y='248.67' font-size='12' font-family='Arial' fill='black'>
-<tspan x='684.67' dy='0'>Establish a channel for sharing</tspan>
-<tspan x='684.67' dy='14'>information on controlling</tspan>
-<tspan x='684.67' dy='14'>strategic goals.</tspan>
-</text>
-<circle cx='813.33' cy='256.67' r='4' fill='#1f77b4' stroke='black' stroke-width='1' />
-<text x='821.33' y='248.67' font-size='12' font-family='Arial' fill='black'>
-<tspan x='821.33' dy='0'>Implement a reward, punishment</tspan>
-<tspan x='821.33' dy='14'>policy for each milestone.</tspan>
-</text>
-<circle cx='676.67' cy='120.00' r='4' fill='#1f77b4' stroke='black' stroke-width='1' />
-<text x='684.67' y='132.00' font-size='12' font-family='Arial' fill='black'>
-<tspan x='684.67' dy='0'>Define digital transformation</tspan>
-<tspan x='684.67' dy='14'>objectives.</tspan>
-</text>
-<circle cx='676.67' cy='120.00' r='4' fill='#1f77b4' stroke='black' stroke-width='1' />
-<text x='684.67' y='132.00' font-size='12' font-family='Arial' fill='black'>
-<tspan x='684.67' dy='0'>Build KPIs for each department</tspan>
-<tspan x='684.67' dy='14'>based on digital transformation</tspan>
-<tspan x='684.67' dy='14'>objectives</tspan>
-</text>
-<circle cx='813.33' cy='393.33' r='4' fill='#1f77b4' stroke='black' stroke-width='1' />
-<text x='821.33' y='385.33' font-size='12' font-family='Arial' fill='black'>
-<tspan x='821.33' dy='0'>Consider solutions: processes,</tspan>
-<tspan x='821.33' dy='14'>application systems,</tspan>
-<tspan x='821.33' dy='14'>technologies, etc.</tspan>
-</text>
-<circle cx='676.67' cy='256.67' r='4' fill='#1f77b4' stroke='black' stroke-width='1' />
-<text x='684.67' y='248.67' font-size='12' font-family='Arial' fill='black'>
-<tspan x='684.67' dy='0'>Reorganize, train all employees</tspan>
-<tspan x='684.67' dy='14'>to be ready to work effectively</tspan>
-<tspan x='684.67' dy='14'>within the digital system.</tspan>
-</text>
-<circle cx='813.33' cy='393.33' r='4' fill='#1f77b4' stroke='black' stroke-width='1' />
-<text x='821.33' y='385.33' font-size='12' font-family='Arial' fill='black'>
-<tspan x='821.33' dy='0'>Continuous improvement</tspan>
-</text>
-<circle cx='403.33' cy='256.67' r='4' fill='#1f77b4' stroke='black' stroke-width='1' />
-<text x='411.33' y='248.67' font-size='12' font-family='Arial' fill='black'>
-<tspan x='411.33' dy='0'>Request parts quickly, eliminate</tspan>
-<tspan x='411.33' dy='14'>unnecessary intermediate steps.</tspan>
-</text>
-<circle cx='676.67' cy='120.00' r='4' fill='#1f77b4' stroke='black' stroke-width='1' />
-<text x='684.67' y='132.00' font-size='12' font-family='Arial' fill='black'>
-<tspan x='684.67' dy='0'>Establish regular digital skills</tspan>
-<tspan x='684.67' dy='14'>training programs.</tspan>
-</text>
-<circle cx='950.00' cy='120.00' r='4' fill='#1f77b4' stroke='black' stroke-width='1' />
-<text x='940.00' y='132.00' font-size='12' font-family='Arial' fill='black'>
-<tspan x='940.00' dy='0'>The meeting reports must be</tspan>
-<tspan x='940.00' dy='14'>exported from the real-time</tspan>
-<tspan x='940.00' dy='14'>system.</tspan>
-</text>
-<circle cx='540.00' cy='256.67' r='4' fill='#1f77b4' stroke='black' stroke-width='1' />
-<text x='548.00' y='248.67' font-size='12' font-family='Arial' fill='black'>
-<tspan x='548.00' dy='0'>Ensure that when the technology</tspan>
-<tspan x='548.00' dy='14'>is ready, people also have the</tspan>
-<tspan x='548.00' dy='14'>necessary skills to operate it.</tspan>
-</text>
+<circle cx='130.00' cy='940.00' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='139.57' cy='940.00' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='130.00' cy='666.67' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='130.00' cy='393.33' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='130.00' cy='256.67' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='130.00' cy='120.00' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='139.57' cy='120.00' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='266.67' cy='940.00' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='276.23' cy='940.00' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='266.67' cy='803.33' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='276.23' cy='803.33' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='257.10' cy='803.33' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='266.67' cy='793.77' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='266.67' cy='812.90' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='276.23' cy='793.77' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='276.23' cy='812.90' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='257.10' cy='793.77' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='257.10' cy='812.90' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='266.67' cy='666.67' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='276.23' cy='666.67' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='257.10' cy='666.67' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='266.67' cy='657.10' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='266.67' cy='676.23' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='276.23' cy='657.10' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='276.23' cy='676.23' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='257.10' cy='657.10' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='266.67' cy='530.00' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='276.23' cy='530.00' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='257.10' cy='530.00' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='266.67' cy='393.33' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='276.23' cy='393.33' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='257.10' cy='393.33' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='266.67' cy='256.67' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='276.23' cy='256.67' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='257.10' cy='256.67' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='266.67' cy='120.00' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='276.23' cy='120.00' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='257.10' cy='120.00' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='266.67' cy='110.43' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='266.67' cy='129.57' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='276.23' cy='110.43' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='276.23' cy='129.57' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='257.10' cy='110.43' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='257.10' cy='129.57' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='285.80' cy='120.00' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='247.53' cy='120.00' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='403.33' cy='803.33' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='412.90' cy='803.33' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='403.33' cy='666.67' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='412.90' cy='666.67' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='393.77' cy='666.67' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='403.33' cy='657.10' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='403.33' cy='676.23' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='403.33' cy='530.00' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='412.90' cy='530.00' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='393.77' cy='530.00' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='403.33' cy='520.43' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='403.33' cy='393.33' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='412.90' cy='393.33' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='393.77' cy='393.33' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='403.33' cy='383.77' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='403.33' cy='256.67' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='412.90' cy='256.67' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='393.77' cy='256.67' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='403.33' cy='247.10' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='403.33' cy='266.23' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='403.33' cy='120.00' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='412.90' cy='120.00' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='393.77' cy='120.00' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='403.33' cy='110.43' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='403.33' cy='129.57' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='412.90' cy='110.43' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='412.90' cy='129.57' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='393.77' cy='110.43' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='393.77' cy='129.57' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='422.47' cy='120.00' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='384.20' cy='120.00' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='403.33' cy='100.87' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='403.33' cy='139.13' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='540.00' cy='803.33' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='540.00' cy='530.00' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='549.57' cy='530.00' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='530.43' cy='530.00' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='540.00' cy='520.43' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='540.00' cy='539.57' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='549.57' cy='520.43' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='549.57' cy='539.57' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='530.43' cy='520.43' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='530.43' cy='539.57' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='559.13' cy='530.00' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='520.87' cy='530.00' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='540.00' cy='393.33' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='549.57' cy='393.33' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='530.43' cy='393.33' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='540.00' cy='383.77' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='540.00' cy='402.90' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='549.57' cy='383.77' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='549.57' cy='402.90' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='530.43' cy='383.77' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='530.43' cy='402.90' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='559.13' cy='393.33' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='520.87' cy='393.33' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='540.00' cy='374.20' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='540.00' cy='412.47' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='559.13' cy='374.20' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='559.13' cy='412.47' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='520.87' cy='374.20' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='540.00' cy='256.67' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='549.57' cy='256.67' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='530.43' cy='256.67' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='540.00' cy='247.10' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='540.00' cy='266.23' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='549.57' cy='247.10' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='549.57' cy='266.23' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='530.43' cy='247.10' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='530.43' cy='266.23' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='559.13' cy='256.67' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='520.87' cy='256.67' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='540.00' cy='237.53' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='540.00' cy='275.80' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='559.13' cy='237.53' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='559.13' cy='275.80' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='540.00' cy='120.00' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='549.57' cy='120.00' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='530.43' cy='120.00' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='540.00' cy='110.43' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='540.00' cy='129.57' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='549.57' cy='110.43' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='549.57' cy='129.57' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='530.43' cy='110.43' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='530.43' cy='129.57' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='559.13' cy='120.00' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='520.87' cy='120.00' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='540.00' cy='100.87' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='540.00' cy='139.13' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='559.13' cy='100.87' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='559.13' cy='139.13' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='520.87' cy='100.87' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='520.87' cy='139.13' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='564.60' cy='120.00' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='515.40' cy='120.00' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='540.00' cy='95.40' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='540.00' cy='144.60' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='564.60' cy='95.40' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='564.60' cy='144.60' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='515.40' cy='95.40' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='676.67' cy='803.33' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='686.23' cy='803.33' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='667.10' cy='803.33' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='676.67' cy='793.77' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='676.67' cy='812.90' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='686.23' cy='793.77' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='686.23' cy='812.90' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='667.10' cy='793.77' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='667.10' cy='812.90' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='695.80' cy='803.33' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='657.53' cy='803.33' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='676.67' cy='784.20' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='676.67' cy='822.47' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='695.80' cy='784.20' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='695.80' cy='822.47' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='657.53' cy='784.20' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='676.67' cy='666.67' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='686.23' cy='666.67' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='667.10' cy='666.67' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='676.67' cy='657.10' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='676.67' cy='676.23' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='686.23' cy='657.10' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='686.23' cy='676.23' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='667.10' cy='657.10' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='667.10' cy='676.23' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='695.80' cy='666.67' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='657.53' cy='666.67' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='676.67' cy='530.00' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='686.23' cy='530.00' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='667.10' cy='530.00' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='676.67' cy='520.43' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='676.67' cy='539.57' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='686.23' cy='520.43' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='686.23' cy='539.57' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='676.67' cy='393.33' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='686.23' cy='393.33' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='667.10' cy='393.33' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='676.67' cy='383.77' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='676.67' cy='402.90' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='686.23' cy='383.77' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='686.23' cy='402.90' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='667.10' cy='383.77' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='667.10' cy='402.90' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='695.80' cy='393.33' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='657.53' cy='393.33' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='676.67' cy='374.20' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='676.67' cy='412.47' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='695.80' cy='374.20' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='695.80' cy='412.47' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='657.53' cy='374.20' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='657.53' cy='412.47' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='701.27' cy='393.33' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='652.07' cy='393.33' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='676.67' cy='256.67' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='686.23' cy='256.67' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='667.10' cy='256.67' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='676.67' cy='247.10' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='676.67' cy='266.23' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='686.23' cy='247.10' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='686.23' cy='266.23' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='667.10' cy='247.10' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='667.10' cy='266.23' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='695.80' cy='256.67' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='657.53' cy='256.67' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='676.67' cy='237.53' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='676.67' cy='275.80' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='695.80' cy='237.53' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='695.80' cy='275.80' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='657.53' cy='237.53' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='657.53' cy='275.80' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='701.27' cy='256.67' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='676.67' cy='120.00' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='686.23' cy='120.00' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='667.10' cy='120.00' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='676.67' cy='110.43' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='676.67' cy='129.57' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='686.23' cy='110.43' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='686.23' cy='129.57' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='667.10' cy='110.43' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='667.10' cy='129.57' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='695.80' cy='120.00' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='657.53' cy='120.00' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='676.67' cy='100.87' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='676.67' cy='139.13' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='695.80' cy='100.87' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='695.80' cy='139.13' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='657.53' cy='100.87' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='813.33' cy='940.00' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='822.90' cy='940.00' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='813.33' cy='803.33' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='822.90' cy='803.33' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='803.77' cy='803.33' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='813.33' cy='793.77' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='813.33' cy='812.90' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='822.90' cy='793.77' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='822.90' cy='812.90' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='803.77' cy='793.77' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='803.77' cy='812.90' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='832.47' cy='803.33' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='794.20' cy='803.33' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='813.33' cy='784.20' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='813.33' cy='822.47' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='832.47' cy='784.20' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='832.47' cy='822.47' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='794.20' cy='784.20' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='794.20' cy='822.47' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='837.93' cy='803.33' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='788.73' cy='803.33' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='813.33' cy='778.73' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='813.33' cy='827.93' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='837.93' cy='778.73' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='837.93' cy='827.93' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='813.33' cy='666.67' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='822.90' cy='666.67' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='803.77' cy='666.67' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='813.33' cy='657.10' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='813.33' cy='676.23' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='822.90' cy='657.10' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='822.90' cy='676.23' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='803.77' cy='657.10' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='803.77' cy='676.23' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='832.47' cy='666.67' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='794.20' cy='666.67' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='813.33' cy='647.53' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='813.33' cy='685.80' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='832.47' cy='647.53' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='832.47' cy='685.80' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='813.33' cy='530.00' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='822.90' cy='530.00' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='803.77' cy='530.00' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='813.33' cy='520.43' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='813.33' cy='539.57' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='822.90' cy='520.43' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='822.90' cy='539.57' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='813.33' cy='393.33' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='822.90' cy='393.33' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='803.77' cy='393.33' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='813.33' cy='383.77' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='813.33' cy='402.90' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='822.90' cy='383.77' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='822.90' cy='402.90' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='803.77' cy='383.77' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='803.77' cy='402.90' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='832.47' cy='393.33' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='813.33' cy='256.67' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='822.90' cy='256.67' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='803.77' cy='256.67' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='813.33' cy='247.10' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='813.33' cy='266.23' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='822.90' cy='247.10' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='822.90' cy='266.23' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='803.77' cy='247.10' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='803.77' cy='266.23' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='832.47' cy='256.67' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='794.20' cy='256.67' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='813.33' cy='237.53' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='813.33' cy='275.80' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='832.47' cy='237.53' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='832.47' cy='275.80' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='794.20' cy='237.53' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='794.20' cy='275.80' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='837.93' cy='256.67' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='788.73' cy='256.67' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='813.33' cy='232.07' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='813.33' cy='281.27' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='837.93' cy='232.07' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='837.93' cy='281.27' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='813.33' cy='120.00' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='822.90' cy='120.00' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='803.77' cy='120.00' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='813.33' cy='110.43' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='813.33' cy='129.57' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='822.90' cy='110.43' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='822.90' cy='129.57' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='803.77' cy='110.43' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='803.77' cy='129.57' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='832.47' cy='120.00' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='794.20' cy='120.00' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='813.33' cy='100.87' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='813.33' cy='139.13' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='950.00' cy='803.33' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='959.57' cy='803.33' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='940.43' cy='803.33' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='950.00' cy='666.67' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='950.00' cy='393.33' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='959.57' cy='393.33' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='940.43' cy='393.33' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='950.00' cy='256.67' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='959.57' cy='256.67' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='940.43' cy='256.67' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='950.00' cy='247.10' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='950.00' cy='266.23' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='959.57' cy='247.10' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='959.57' cy='266.23' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='950.00' cy='120.00' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='959.57' cy='120.00' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='940.43' cy='120.00' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='950.00' cy='110.43' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='950.00' cy='129.57' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='959.57' cy='110.43' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='959.57' cy='129.57' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='940.43' cy='110.43' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='940.43' cy='129.57' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='969.13' cy='120.00' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
+<circle cx='930.87' cy='120.00' r='8' fill='white' fill-opacity='0.9' stroke='black' stroke-width='2' />
 </svg>
