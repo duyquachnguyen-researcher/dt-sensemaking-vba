@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="800">
+<rect width="760" height="800" fill="white" />
+<line x1="140" y1="120" x2="140" y2="680" stroke="#b4b4b4" />
+<line x1="140" y1="120" x2="700" y2="120" stroke="#b4b4b4" />
+<line x1="220" y1="120" x2="220" y2="680" stroke="#b4b4b4" />
+<line x1="140" y1="200" x2="700" y2="200" stroke="#b4b4b4" />
+<line x1="300" y1="120" x2="300" y2="680" stroke="#b4b4b4" />
+<line x1="140" y1="280" x2="700" y2="280" stroke="#b4b4b4" />
+<line x1="380" y1="120" x2="380" y2="680" stroke="#b4b4b4" />
+<line x1="140" y1="360" x2="700" y2="360" stroke="#b4b4b4" />
+<line x1="460" y1="120" x2="460" y2="680" stroke="#b4b4b4" />
+<line x1="140" y1="440" x2="700" y2="440" stroke="#b4b4b4" />
+<line x1="540" y1="120" x2="540" y2="680" stroke="#b4b4b4" />
+<line x1="140" y1="520" x2="700" y2="520" stroke="#b4b4b4" />
+<line x1="620" y1="120" x2="620" y2="680" stroke="#b4b4b4" />
+<line x1="140" y1="600" x2="700" y2="600" stroke="#b4b4b4" />
+<line x1="700" y1="120" x2="700" y2="680" stroke="#b4b4b4" />
+<line x1="140" y1="680" x2="700" y2="680" stroke="#b4b4b4" />
+<text x="180.0" y="710" text-anchor="middle" font-size="16" font-family="Arial">1</text>
+<text x="260.0" y="710" text-anchor="middle" font-size="16" font-family="Arial">2</text>
+<text x="340.0" y="710" text-anchor="middle" font-size="16" font-family="Arial">3</text>
+<text x="420.0" y="710" text-anchor="middle" font-size="16" font-family="Arial">4</text>
+<text x="500.0" y="710" text-anchor="middle" font-size="16" font-family="Arial">5</text>
+<text x="580.0" y="710" text-anchor="middle" font-size="16" font-family="Arial">6</text>
+<text x="660.0" y="710" text-anchor="middle" font-size="16" font-family="Arial">7</text>
+<text x="120" y="646.0" text-anchor="end" font-size="16" font-family="Arial">1</text>
+<text x="120" y="566.0" text-anchor="end" font-size="16" font-family="Arial">2</text>
+<text x="120" y="486.0" text-anchor="end" font-size="16" font-family="Arial">3</text>
+<text x="120" y="406.0" text-anchor="end" font-size="16" font-family="Arial">4</text>
+<text x="120" y="326.0" text-anchor="end" font-size="16" font-family="Arial">5</text>
+<text x="120" y="246.0" text-anchor="end" font-size="16" font-family="Arial">6</text>
+<text x="120" y="166.0" text-anchor="end" font-size="16" font-family="Arial">7</text>
+<text x="20" y="60" font-size="22" font-family="Arial">Decisive mapper placements</text>
+<text x="20" y="90" font-size="16" font-family="Arial" fill="#505050">23 placements</text>
+<text x="220" y="740" font-size="16" font-family="Arial">Implementability (1 = Hard, 7 = Easy)</text>
+<text x="20" y="320" font-size="16" font-family="Arial">Degree of impact (1 = Low, 7 = High)</text>
+<rect x="254.0" y="154.0" width="12" height="12" fill="#282828" />
+<rect x="174.0" y="634.0" width="12" height="12" fill="#282828" />
+<rect x="334.0" y="474.0" width="12" height="12" fill="#282828" />
+<rect x="574.0" y="154.0" width="12" height="12" fill="#282828" />
+<rect x="334.0" y="154.0" width="12" height="12" fill="#282828" />
+<rect x="414.0" y="154.0" width="12" height="12" fill="#282828" />
+<rect x="254.0" y="394.0" width="12" height="12" fill="#282828" />
+<rect x="334.0" y="394.0" width="12" height="12" fill="#282828" />
+<rect x="494.0" y="154.0" width="12" height="12" fill="#282828" />
+<rect x="574.0" y="394.0" width="12" height="12" fill="#282828" />
+<rect x="654.0" y="154.0" width="12" height="12" fill="#282828" />
+<rect x="334.0" y="234.0" width="12" height="12" fill="#282828" />
+<rect x="574.0" y="154.0" width="12" height="12" fill="#282828" />
+<rect x="254.0" y="314.0" width="12" height="12" fill="#282828" />
+<rect x="654.0" y="154.0" width="12" height="12" fill="#282828" />
+<rect x="654.0" y="154.0" width="12" height="12" fill="#282828" />
+<rect x="574.0" y="154.0" width="12" height="12" fill="#282828" />
+<rect x="414.0" y="234.0" width="12" height="12" fill="#282828" />
+<rect x="494.0" y="314.0" width="12" height="12" fill="#282828" />
+<rect x="574.0" y="234.0" width="12" height="12" fill="#282828" />
+<rect x="654.0" y="154.0" width="12" height="12" fill="#282828" />
+<rect x="654.0" y="234.0" width="12" height="12" fill="#282828" />
+<rect x="414.0" y="314.0" width="12" height="12" fill="#282828" />
+</svg>
